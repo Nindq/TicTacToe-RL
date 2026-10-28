@@ -1,0 +1,20 @@
+{
+  "filename": "champ_2026_10M_28D__02h_31m_26s_gen_28.pth",
+  "generation": 28,
+  "run_id": "2026_10M_28D__02h_31m_26s",
+  "fitness": 0.75,
+  "name": "Oiooeoeeo",
+  "config": {
+    "seed": 12,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "crossover": true,
+    "inheritance_probability": 0.5,
+    "mutation_std": 0.01714285714285707,
+    "annealing": true,
+    "starting_std": 0.1,
+    "ending_std": 0.02,
+    "pytorch_version": "2.14.1+cu132"
+  }
+}

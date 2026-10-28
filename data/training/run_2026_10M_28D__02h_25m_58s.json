@@ -1,0 +1,2212 @@
+{
+  "config": {
+    "seed": 11,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "crossover": true,
+    "Inheritance_Probability": 0.5,
+    "mutation_std": 0.1,
+    "annealing": true,
+    "starting_std": 0.1,
+    "ending_std": 0.02,
+    "games_per_candidate": 100,
+    "selection_mode": "tournament",
+    "tournament_size": 3,
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "mutation_std": 0.1,
+      "best_fitness": 0.605,
+      "mean_fitness": 0.52375,
+      "best_name": "Usu",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Usu",
+          "fitness": 0.605,
+          "wins": 57,
+          "draws": 7,
+          "losses": 36
+        },
+        {
+          "rank": 1,
+          "name": "Qqdac",
+          "fitness": 0.57,
+          "wins": 52,
+          "draws": 10,
+          "losses": 38
+        },
+        {
+          "rank": 2,
+          "name": "Aso",
+          "fitness": 0.545,
+          "wins": 50,
+          "draws": 9,
+          "losses": 41
+        },
+        {
+          "rank": 3,
+          "name": "Dnud",
+          "fitness": 0.52,
+          "wins": 47,
+          "draws": 10,
+          "losses": 43
+        },
+        {
+          "rank": 4,
+          "name": "Zzoy",
+          "fitness": 0.505,
+          "wins": 47,
+          "draws": 7,
+          "losses": 46
+        },
+        {
+          "rank": 5,
+          "name": "Uuaa",
+          "fitness": 0.5,
+          "wins": 47,
+          "draws": 6,
+          "losses": 47
+        },
+        {
+          "rank": 6,
+          "name": "Yysji",
+          "fitness": 0.485,
+          "wins": 41,
+          "draws": 15,
+          "losses": 44
+        },
+        {
+          "rank": 7,
+          "name": "Hohha",
+          "fitness": 0.46,
+          "wins": 39,
+          "draws": 14,
+          "losses": 47
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "mutation_std": 0.09714285714285714,
+      "best_fitness": 0.52,
+      "mean_fitness": 0.475,
+      "best_name": "Dfud",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Dfud",
+          "fitness": 0.52,
+          "wins": 47,
+          "draws": 10,
+          "losses": 43
+        },
+        {
+          "rank": 1,
+          "name": "Dniud",
+          "fitness": 0.52,
+          "wins": 42,
+          "draws": 20,
+          "losses": 38
+        },
+        {
+          "rank": 2,
+          "name": "Dnubud",
+          "fitness": 0.5,
+          "wins": 43,
+          "draws": 14,
+          "losses": 43
+        },
+        {
+          "rank": 3,
+          "name": "Usu",
+          "fitness": 0.495,
+          "wins": 42,
+          "draws": 15,
+          "losses": 43
+        },
+        {
+          "rank": 4,
+          "name": "Dnuc",
+          "fitness": 0.475,
+          "wins": 39,
+          "draws": 17,
+          "losses": 44
+        },
+        {
+          "rank": 5,
+          "name": "Dnuddnud",
+          "fitness": 0.45,
+          "wins": 41,
+          "draws": 8,
+          "losses": 51
+        },
+        {
+          "rank": 6,
+          "name": "Ynuddn",
+          "fitness": 0.44,
+          "wins": 40,
+          "draws": 8,
+          "losses": 52
+        },
+        {
+          "rank": 7,
+          "name": "Dndunr",
+          "fitness": 0.4,
+          "wins": 29,
+          "draws": 22,
+          "losses": 49
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "mutation_std": 0.09428571428571428,
+      "best_fitness": 0.525,
+      "mean_fitness": 0.484375,
+      "best_name": "Dfud",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Dfud",
+          "fitness": 0.525,
+          "wins": 47,
+          "draws": 11,
+          "losses": 42
+        },
+        {
+          "rank": 1,
+          "name": "Dnuh",
+          "fitness": 0.525,
+          "wins": 44,
+          "draws": 17,
+          "losses": 39
+        },
+        {
+          "rank": 2,
+          "name": "Kdn",
+          "fitness": 0.505,
+          "wins": 42,
+          "draws": 17,
+          "losses": 41
+        },
+        {
+          "rank": 3,
+          "name": "Dfuw",
+          "fitness": 0.5,
+          "wins": 45,
+          "draws": 10,
+          "losses": 45
+        },
+        {
+          "rank": 4,
+          "name": "Dfuk",
+          "fitness": 0.495,
+          "wins": 46,
+          "draws": 7,
+          "losses": 47
+        },
+        {
+          "rank": 5,
+          "name": "Cfiud",
+          "fitness": 0.49,
+          "wins": 45,
+          "draws": 8,
+          "losses": 47
+        },
+        {
+          "rank": 6,
+          "name": "Dnuj",
+          "fitness": 0.44,
+          "wins": 35,
+          "draws": 18,
+          "losses": 47
+        },
+        {
+          "rank": 7,
+          "name": "Kfiud",
+          "fitness": 0.395,
+          "wins": 33,
+          "draws": 13,
+          "losses": 54
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "mutation_std": 0.09142857142857141,
+      "best_fitness": 0.52,
+      "mean_fitness": 0.45,
+      "best_name": "Ddcuh",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ddcuh",
+          "fitness": 0.52,
+          "wins": 45,
+          "draws": 14,
+          "losses": 41
+        },
+        {
+          "rank": 1,
+          "name": "Dfud",
+          "fitness": 0.49,
+          "wins": 40,
+          "draws": 18,
+          "losses": 42
+        },
+        {
+          "rank": 2,
+          "name": "Dnoh",
+          "fitness": 0.48,
+          "wins": 38,
+          "draws": 20,
+          "losses": 42
+        },
+        {
+          "rank": 3,
+          "name": "Dvuhdnuh",
+          "fitness": 0.47,
+          "wins": 38,
+          "draws": 18,
+          "losses": 44
+        },
+        {
+          "rank": 4,
+          "name": "Dduh",
+          "fitness": 0.465,
+          "wins": 41,
+          "draws": 11,
+          "losses": 48
+        },
+        {
+          "rank": 5,
+          "name": "Ddkuh",
+          "fitness": 0.44,
+          "wins": 38,
+          "draws": 12,
+          "losses": 50
+        },
+        {
+          "rank": 6,
+          "name": "Mdnunuh",
+          "fitness": 0.37,
+          "wins": 29,
+          "draws": 16,
+          "losses": 55
+        },
+        {
+          "rank": 7,
+          "name": "Dnuv",
+          "fitness": 0.365,
+          "wins": 26,
+          "draws": 21,
+          "losses": 53
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "mutation_std": 0.08857142857142855,
+      "best_fitness": 0.535,
+      "mean_fitness": 0.443125,
+      "best_name": "Dna",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Dna",
+          "fitness": 0.535,
+          "wins": 47,
+          "draws": 13,
+          "losses": 40
+        },
+        {
+          "rank": 1,
+          "name": "Dmd",
+          "fitness": 0.485,
+          "wins": 37,
+          "draws": 23,
+          "losses": 40
+        },
+        {
+          "rank": 2,
+          "name": "Ddoh",
+          "fitness": 0.44,
+          "wins": 37,
+          "draws": 14,
+          "losses": 49
+        },
+        {
+          "rank": 3,
+          "name": "Dpoh",
+          "fitness": 0.44,
+          "wins": 34,
+          "draws": 20,
+          "losses": 46
+        },
+        {
+          "rank": 4,
+          "name": "Dnsuh",
+          "fitness": 0.425,
+          "wins": 37,
+          "draws": 11,
+          "losses": 52
+        },
+        {
+          "rank": 5,
+          "name": "Dnkoh",
+          "fitness": 0.425,
+          "wins": 33,
+          "draws": 19,
+          "losses": 48
+        },
+        {
+          "rank": 6,
+          "name": "Dsuh",
+          "fitness": 0.415,
+          "wins": 31,
+          "draws": 21,
+          "losses": 48
+        },
+        {
+          "rank": 7,
+          "name": "Ddcuh",
+          "fitness": 0.38,
+          "wins": 29,
+          "draws": 18,
+          "losses": 53
+        }
+      ]
+    },
+    {
+      "generation": 5,
+      "mutation_std": 0.08571428571428569,
+      "best_fitness": 0.565,
+      "mean_fitness": 0.5,
+      "best_name": "Djd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Djd",
+          "fitness": 0.565,
+          "wins": 50,
+          "draws": 13,
+          "losses": 37
+        },
+        {
+          "rank": 1,
+          "name": "Ddmd",
+          "fitness": 0.54,
+          "wins": 46,
+          "draws": 16,
+          "losses": 38
+        },
+        {
+          "rank": 2,
+          "name": "Mdmmdd",
+          "fitness": 0.53,
+          "wins": 42,
+          "draws": 22,
+          "losses": 36
+        },
+        {
+          "rank": 3,
+          "name": "Dmddm",
+          "fitness": 0.52,
+          "wins": 39,
+          "draws": 26,
+          "losses": 35
+        },
+        {
+          "rank": 4,
+          "name": "Ddd",
+          "fitness": 0.5,
+          "wins": 40,
+          "draws": 20,
+          "losses": 40
+        },
+        {
+          "rank": 5,
+          "name": "Dvd",
+          "fitness": 0.48,
+          "wins": 42,
+          "draws": 12,
+          "losses": 46
+        },
+        {
+          "rank": 6,
+          "name": "Dnd",
+          "fitness": 0.465,
+          "wins": 41,
+          "draws": 11,
+          "losses": 48
+        },
+        {
+          "rank": 7,
+          "name": "Dna",
+          "fitness": 0.4,
+          "wins": 34,
+          "draws": 12,
+          "losses": 54
+        }
+      ]
+    },
+    {
+      "generation": 6,
+      "mutation_std": 0.08285714285714282,
+      "best_fitness": 0.57,
+      "mean_fitness": 0.485,
+      "best_name": "Djd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Djd",
+          "fitness": 0.57,
+          "wins": 51,
+          "draws": 12,
+          "losses": 37
+        },
+        {
+          "rank": 1,
+          "name": "Dmd",
+          "fitness": 0.55,
+          "wins": 50,
+          "draws": 10,
+          "losses": 40
+        },
+        {
+          "rank": 2,
+          "name": "Dddt",
+          "fitness": 0.48,
+          "wins": 43,
+          "draws": 10,
+          "losses": 47
+        },
+        {
+          "rank": 3,
+          "name": "Ddp",
+          "fitness": 0.47,
+          "wins": 36,
+          "draws": 22,
+          "losses": 42
+        },
+        {
+          "rank": 4,
+          "name": "Dd",
+          "fitness": 0.465,
+          "wins": 36,
+          "draws": 21,
+          "losses": 43
+        },
+        {
+          "rank": 5,
+          "name": "Dddd",
+          "fitness": 0.46,
+          "wins": 42,
+          "draws": 8,
+          "losses": 50
+        },
+        {
+          "rank": 6,
+          "name": "Dpd",
+          "fitness": 0.46,
+          "wins": 40,
+          "draws": 12,
+          "losses": 48
+        },
+        {
+          "rank": 7,
+          "name": "Ddp",
+          "fitness": 0.425,
+          "wins": 34,
+          "draws": 17,
+          "losses": 49
+        }
+      ]
+    },
+    {
+      "generation": 7,
+      "mutation_std": 0.07999999999999996,
+      "best_fitness": 0.535,
+      "mean_fitness": 0.48375,
+      "best_name": "Ddd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ddd",
+          "fitness": 0.535,
+          "wins": 45,
+          "draws": 17,
+          "losses": 38
+        },
+        {
+          "rank": 1,
+          "name": "Ddjypd",
+          "fitness": 0.5,
+          "wins": 42,
+          "draws": 16,
+          "losses": 42
+        },
+        {
+          "rank": 2,
+          "name": "Djr",
+          "fitness": 0.5,
+          "wins": 46,
+          "draws": 8,
+          "losses": 46
+        },
+        {
+          "rank": 3,
+          "name": "Djd",
+          "fitness": 0.49,
+          "wins": 40,
+          "draws": 18,
+          "losses": 42
+        },
+        {
+          "rank": 4,
+          "name": "Xjd",
+          "fitness": 0.49,
+          "wins": 41,
+          "draws": 16,
+          "losses": 43
+        },
+        {
+          "rank": 5,
+          "name": "Djx",
+          "fitness": 0.46,
+          "wins": 41,
+          "draws": 10,
+          "losses": 49
+        },
+        {
+          "rank": 6,
+          "name": "Zjd",
+          "fitness": 0.46,
+          "wins": 39,
+          "draws": 14,
+          "losses": 47
+        },
+        {
+          "rank": 7,
+          "name": "Ddt",
+          "fitness": 0.435,
+          "wins": 40,
+          "draws": 7,
+          "losses": 53
+        }
+      ]
+    },
+    {
+      "generation": 8,
+      "mutation_std": 0.0771428571428571,
+      "best_fitness": 0.585,
+      "mean_fitness": 0.500625,
+      "best_name": "Ddd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ddd",
+          "fitness": 0.585,
+          "wins": 51,
+          "draws": 15,
+          "losses": 34
+        },
+        {
+          "rank": 1,
+          "name": "Djz",
+          "fitness": 0.575,
+          "wins": 48,
+          "draws": 19,
+          "losses": 33
+        },
+        {
+          "rank": 2,
+          "name": "Djb",
+          "fitness": 0.535,
+          "wins": 50,
+          "draws": 7,
+          "losses": 43
+        },
+        {
+          "rank": 3,
+          "name": "Djdr",
+          "fitness": 0.535,
+          "wins": 49,
+          "draws": 9,
+          "losses": 42
+        },
+        {
+          "rank": 4,
+          "name": "Dl",
+          "fitness": 0.47,
+          "wins": 39,
+          "draws": 16,
+          "losses": 45
+        },
+        {
+          "rank": 5,
+          "name": "Lr",
+          "fitness": 0.46,
+          "wins": 40,
+          "draws": 12,
+          "losses": 48
+        },
+        {
+          "rank": 6,
+          "name": "Djk",
+          "fitness": 0.45,
+          "wins": 37,
+          "draws": 16,
+          "losses": 47
+        },
+        {
+          "rank": 7,
+          "name": "Djdjdr",
+          "fitness": 0.395,
+          "wins": 34,
+          "draws": 11,
+          "losses": 55
+        }
+      ]
+    },
+    {
+      "generation": 9,
+      "mutation_std": 0.07428571428571423,
+      "best_fitness": 0.615,
+      "mean_fitness": 0.545625,
+      "best_name": "Djdsjz",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Djdsjz",
+          "fitness": 0.615,
+          "wins": 55,
+          "draws": 13,
+          "losses": 32
+        },
+        {
+          "rank": 1,
+          "name": "Vdddj",
+          "fitness": 0.59,
+          "wins": 51,
+          "draws": 16,
+          "losses": 33
+        },
+        {
+          "rank": 2,
+          "name": "Djt",
+          "fitness": 0.58,
+          "wins": 51,
+          "draws": 14,
+          "losses": 35
+        },
+        {
+          "rank": 3,
+          "name": "Ddjz",
+          "fitness": 0.565,
+          "wins": 50,
+          "draws": 13,
+          "losses": 37
+        },
+        {
+          "rank": 4,
+          "name": "Pz",
+          "fitness": 0.535,
+          "wins": 48,
+          "draws": 11,
+          "losses": 41
+        },
+        {
+          "rank": 5,
+          "name": "Dbz",
+          "fitness": 0.53,
+          "wins": 46,
+          "draws": 14,
+          "losses": 40
+        },
+        {
+          "rank": 6,
+          "name": "Pdjz",
+          "fitness": 0.485,
+          "wins": 43,
+          "draws": 11,
+          "losses": 46
+        },
+        {
+          "rank": 7,
+          "name": "Ddd",
+          "fitness": 0.465,
+          "wins": 37,
+          "draws": 19,
+          "losses": 44
+        }
+      ]
+    },
+    {
+      "generation": 10,
+      "mutation_std": 0.07142857142857137,
+      "best_fitness": 0.605,
+      "mean_fitness": 0.5437500000000001,
+      "best_name": "Dddbjzj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Dddbjzj",
+          "fitness": 0.605,
+          "wins": 55,
+          "draws": 11,
+          "losses": 34
+        },
+        {
+          "rank": 1,
+          "name": "Ddxjd",
+          "fitness": 0.555,
+          "wins": 50,
+          "draws": 11,
+          "losses": 39
+        },
+        {
+          "rank": 2,
+          "name": "Mbd",
+          "fitness": 0.555,
+          "wins": 49,
+          "draws": 13,
+          "losses": 38
+        },
+        {
+          "rank": 3,
+          "name": "Djdsjz",
+          "fitness": 0.55,
+          "wins": 45,
+          "draws": 20,
+          "losses": 35
+        },
+        {
+          "rank": 4,
+          "name": "Ddbzzz",
+          "fitness": 0.545,
+          "wins": 51,
+          "draws": 7,
+          "losses": 42
+        },
+        {
+          "rank": 5,
+          "name": "Dddv",
+          "fitness": 0.535,
+          "wins": 48,
+          "draws": 11,
+          "losses": 41
+        },
+        {
+          "rank": 6,
+          "name": "Ddjd",
+          "fitness": 0.52,
+          "wins": 42,
+          "draws": 20,
+          "losses": 38
+        },
+        {
+          "rank": 7,
+          "name": "Dddjz",
+          "fitness": 0.485,
+          "wins": 42,
+          "draws": 13,
+          "losses": 45
+        }
+      ]
+    },
+    {
+      "generation": 11,
+      "mutation_std": 0.0685714285714285,
+      "best_fitness": 0.655,
+      "mean_fitness": 0.56625,
+      "best_name": "Mdjbddsj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Mdjbddsj",
+          "fitness": 0.655,
+          "wins": 58,
+          "draws": 15,
+          "losses": 27
+        },
+        {
+          "rank": 1,
+          "name": "Dddbjzj",
+          "fitness": 0.595,
+          "wins": 53,
+          "draws": 13,
+          "losses": 34
+        },
+        {
+          "rank": 2,
+          "name": "Dsdbd",
+          "fitness": 0.59,
+          "wins": 50,
+          "draws": 18,
+          "losses": 32
+        },
+        {
+          "rank": 3,
+          "name": "Djtsjz",
+          "fitness": 0.585,
+          "wins": 51,
+          "draws": 15,
+          "losses": 34
+        },
+        {
+          "rank": 4,
+          "name": "Mdjgsjz",
+          "fitness": 0.565,
+          "wins": 53,
+          "draws": 7,
+          "losses": 40
+        },
+        {
+          "rank": 5,
+          "name": "Djdssz",
+          "fitness": 0.53,
+          "wins": 48,
+          "draws": 10,
+          "losses": 42
+        },
+        {
+          "rank": 6,
+          "name": "Msjz",
+          "fitness": 0.515,
+          "wins": 43,
+          "draws": 17,
+          "losses": 40
+        },
+        {
+          "rank": 7,
+          "name": "Djdsjmbd",
+          "fitness": 0.495,
+          "wins": 45,
+          "draws": 9,
+          "losses": 46
+        }
+      ]
+    },
+    {
+      "generation": 12,
+      "mutation_std": 0.06571428571428564,
+      "best_fitness": 0.655,
+      "mean_fitness": 0.589375,
+      "best_name": "Dddddj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Dddddj",
+          "fitness": 0.655,
+          "wins": 60,
+          "draws": 11,
+          "losses": 29
+        },
+        {
+          "rank": 1,
+          "name": "Ddsddbj",
+          "fitness": 0.63,
+          "wins": 56,
+          "draws": 14,
+          "losses": 30
+        },
+        {
+          "rank": 2,
+          "name": "Dqdbds",
+          "fitness": 0.63,
+          "wins": 58,
+          "draws": 10,
+          "losses": 32
+        },
+        {
+          "rank": 3,
+          "name": "Dsdsd",
+          "fitness": 0.57,
+          "wins": 50,
+          "draws": 14,
+          "losses": 36
+        },
+        {
+          "rank": 4,
+          "name": "Fdddbd",
+          "fitness": 0.57,
+          "wins": 54,
+          "draws": 6,
+          "losses": 40
+        },
+        {
+          "rank": 5,
+          "name": "Dsdbc",
+          "fitness": 0.555,
+          "wins": 47,
+          "draws": 17,
+          "losses": 36
+        },
+        {
+          "rank": 6,
+          "name": "Ssdbdbd",
+          "fitness": 0.555,
+          "wins": 49,
+          "draws": 13,
+          "losses": 38
+        },
+        {
+          "rank": 7,
+          "name": "Mdjbddsj",
+          "fitness": 0.55,
+          "wins": 47,
+          "draws": 16,
+          "losses": 37
+        }
+      ]
+    },
+    {
+      "generation": 13,
+      "mutation_std": 0.06285714285714278,
+      "best_fitness": 0.61,
+      "mean_fitness": 0.539375,
+      "best_name": "Pqddsd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Pqddsd",
+          "fitness": 0.61,
+          "wins": 55,
+          "draws": 12,
+          "losses": 33
+        },
+        {
+          "rank": 1,
+          "name": "Dddddj",
+          "fitness": 0.58,
+          "wins": 53,
+          "draws": 10,
+          "losses": 37
+        },
+        {
+          "rank": 2,
+          "name": "Dyddsd",
+          "fitness": 0.56,
+          "wins": 53,
+          "draws": 6,
+          "losses": 41
+        },
+        {
+          "rank": 3,
+          "name": "Ddsds",
+          "fitness": 0.545,
+          "wins": 51,
+          "draws": 7,
+          "losses": 42
+        },
+        {
+          "rank": 4,
+          "name": "Dsdst",
+          "fitness": 0.525,
+          "wins": 47,
+          "draws": 11,
+          "losses": 42
+        },
+        {
+          "rank": 5,
+          "name": "Dyds",
+          "fitness": 0.515,
+          "wins": 47,
+          "draws": 9,
+          "losses": 44
+        },
+        {
+          "rank": 6,
+          "name": "Dgq",
+          "fitness": 0.51,
+          "wins": 43,
+          "draws": 16,
+          "losses": 41
+        },
+        {
+          "rank": 7,
+          "name": "Tqdbdds",
+          "fitness": 0.47,
+          "wins": 43,
+          "draws": 8,
+          "losses": 49
+        }
+      ]
+    },
+    {
+      "generation": 14,
+      "mutation_std": 0.05999999999999992,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.6025,
+      "best_name": "Ddddqj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ddddqj",
+          "fitness": 0.7,
+          "wins": 67,
+          "draws": 6,
+          "losses": 27
+        },
+        {
+          "rank": 1,
+          "name": "Dpqdd",
+          "fitness": 0.685,
+          "wins": 64,
+          "draws": 9,
+          "losses": 27
+        },
+        {
+          "rank": 2,
+          "name": "Ddddnd",
+          "fitness": 0.635,
+          "wins": 60,
+          "draws": 7,
+          "losses": 33
+        },
+        {
+          "rank": 3,
+          "name": "Pqdpqkdsd",
+          "fitness": 0.625,
+          "wins": 60,
+          "draws": 5,
+          "losses": 35
+        },
+        {
+          "rank": 4,
+          "name": "Pqddsd",
+          "fitness": 0.565,
+          "wins": 51,
+          "draws": 11,
+          "losses": 38
+        },
+        {
+          "rank": 5,
+          "name": "Rqdddddd",
+          "fitness": 0.555,
+          "wins": 51,
+          "draws": 9,
+          "losses": 40
+        },
+        {
+          "rank": 6,
+          "name": "Ddddddd",
+          "fitness": 0.53,
+          "wins": 47,
+          "draws": 12,
+          "losses": 41
+        },
+        {
+          "rank": 7,
+          "name": "Pqdrsd",
+          "fitness": 0.525,
+          "wins": 49,
+          "draws": 7,
+          "losses": 44
+        }
+      ]
+    },
+    {
+      "generation": 15,
+      "mutation_std": 0.057142857142857065,
+      "best_fitness": 0.645,
+      "mean_fitness": 0.590625,
+      "best_name": "Pqdpqkdtd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Pqdpqkdtd",
+          "fitness": 0.645,
+          "wins": 61,
+          "draws": 7,
+          "losses": 32
+        },
+        {
+          "rank": 1,
+          "name": "Ppqqdpd",
+          "fitness": 0.64,
+          "wins": 62,
+          "draws": 4,
+          "losses": 34
+        },
+        {
+          "rank": 2,
+          "name": "Ddddqj",
+          "fitness": 0.605,
+          "wins": 57,
+          "draws": 7,
+          "losses": 36
+        },
+        {
+          "rank": 3,
+          "name": "Pgdd",
+          "fitness": 0.6,
+          "wins": 56,
+          "draws": 8,
+          "losses": 36
+        },
+        {
+          "rank": 4,
+          "name": "Psd",
+          "fitness": 0.57,
+          "wins": 50,
+          "draws": 14,
+          "losses": 36
+        },
+        {
+          "rank": 5,
+          "name": "Pqdpqkdsm",
+          "fitness": 0.565,
+          "wins": 51,
+          "draws": 11,
+          "losses": 38
+        },
+        {
+          "rank": 6,
+          "name": "Pqdpqkdsn",
+          "fitness": 0.555,
+          "wins": 50,
+          "draws": 11,
+          "losses": 39
+        },
+        {
+          "rank": 7,
+          "name": "Pqdpq",
+          "fitness": 0.545,
+          "wins": 49,
+          "draws": 11,
+          "losses": 40
+        }
+      ]
+    },
+    {
+      "generation": 16,
+      "mutation_std": 0.05428571428571421,
+      "best_fitness": 0.64,
+      "mean_fitness": 0.600625,
+      "best_name": "Pgrd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Pgrd",
+          "fitness": 0.64,
+          "wins": 62,
+          "draws": 4,
+          "losses": 34
+        },
+        {
+          "rank": 1,
+          "name": "Pqdpdp",
+          "fitness": 0.635,
+          "wins": 61,
+          "draws": 5,
+          "losses": 34
+        },
+        {
+          "rank": 2,
+          "name": "Pqdpqkdd",
+          "fitness": 0.625,
+          "wins": 61,
+          "draws": 3,
+          "losses": 36
+        },
+        {
+          "rank": 3,
+          "name": "Pqpd",
+          "fitness": 0.61,
+          "wins": 59,
+          "draws": 4,
+          "losses": 37
+        },
+        {
+          "rank": 4,
+          "name": "Pqdpqkdtd",
+          "fitness": 0.605,
+          "wins": 56,
+          "draws": 9,
+          "losses": 35
+        },
+        {
+          "rank": 5,
+          "name": "Pndd",
+          "fitness": 0.6,
+          "wins": 57,
+          "draws": 6,
+          "losses": 37
+        },
+        {
+          "rank": 6,
+          "name": "Tqp",
+          "fitness": 0.56,
+          "wins": 52,
+          "draws": 8,
+          "losses": 40
+        },
+        {
+          "rank": 7,
+          "name": "Pdtd",
+          "fitness": 0.53,
+          "wins": 51,
+          "draws": 4,
+          "losses": 45
+        }
+      ]
+    },
+    {
+      "generation": 17,
+      "mutation_std": 0.05142857142857135,
+      "best_fitness": 0.65,
+      "mean_fitness": 0.575,
+      "best_name": "Hgpgrd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Hgpgrd",
+          "fitness": 0.65,
+          "wins": 64,
+          "draws": 2,
+          "losses": 34
+        },
+        {
+          "rank": 1,
+          "name": "Pzrd",
+          "fitness": 0.59,
+          "wins": 57,
+          "draws": 4,
+          "losses": 39
+        },
+        {
+          "rank": 2,
+          "name": "Ppq",
+          "fitness": 0.58,
+          "wins": 53,
+          "draws": 10,
+          "losses": 37
+        },
+        {
+          "rank": 3,
+          "name": "Xqdrd",
+          "fitness": 0.575,
+          "wins": 55,
+          "draws": 5,
+          "losses": 40
+        },
+        {
+          "rank": 4,
+          "name": "Pqdrk",
+          "fitness": 0.575,
+          "wins": 54,
+          "draws": 7,
+          "losses": 39
+        },
+        {
+          "rank": 5,
+          "name": "Pgrd",
+          "fitness": 0.555,
+          "wins": 53,
+          "draws": 5,
+          "losses": 42
+        },
+        {
+          "rank": 6,
+          "name": "Pqdd",
+          "fitness": 0.55,
+          "wins": 49,
+          "draws": 12,
+          "losses": 39
+        },
+        {
+          "rank": 7,
+          "name": "Pgrz",
+          "fitness": 0.525,
+          "wins": 50,
+          "draws": 5,
+          "losses": 45
+        }
+      ]
+    },
+    {
+      "generation": 18,
+      "mutation_std": 0.048571428571428495,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.57875,
+      "best_name": "Hgpgrd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Hgpgrd",
+          "fitness": 0.625,
+          "wins": 58,
+          "draws": 9,
+          "losses": 33
+        },
+        {
+          "rank": 1,
+          "name": "Tk",
+          "fitness": 0.625,
+          "wins": 57,
+          "draws": 11,
+          "losses": 32
+        },
+        {
+          "rank": 2,
+          "name": "Pzdrk",
+          "fitness": 0.6,
+          "wins": 55,
+          "draws": 10,
+          "losses": 35
+        },
+        {
+          "rank": 3,
+          "name": "Pqdzk",
+          "fitness": 0.6,
+          "wins": 56,
+          "draws": 8,
+          "losses": 36
+        },
+        {
+          "rank": 4,
+          "name": "Gzrd",
+          "fitness": 0.59,
+          "wins": 57,
+          "draws": 4,
+          "losses": 39
+        },
+        {
+          "rank": 5,
+          "name": "Pqpdd",
+          "fitness": 0.58,
+          "wins": 52,
+          "draws": 12,
+          "losses": 36
+        },
+        {
+          "rank": 6,
+          "name": "Pqdnk",
+          "fitness": 0.555,
+          "wins": 52,
+          "draws": 7,
+          "losses": 41
+        },
+        {
+          "rank": 7,
+          "name": "Pkd",
+          "fitness": 0.455,
+          "wins": 40,
+          "draws": 11,
+          "losses": 49
+        }
+      ]
+    },
+    {
+      "generation": 19,
+      "mutation_std": 0.04571428571428564,
+      "best_fitness": 0.63,
+      "mean_fitness": 0.574375,
+      "best_name": "Tkd",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Tkd",
+          "fitness": 0.63,
+          "wins": 57,
+          "draws": 12,
+          "losses": 31
+        },
+        {
+          "rank": 1,
+          "name": "Ttkk",
+          "fitness": 0.62,
+          "wins": 57,
+          "draws": 10,
+          "losses": 33
+        },
+        {
+          "rank": 2,
+          "name": "Tgrd",
+          "fitness": 0.61,
+          "wins": 56,
+          "draws": 10,
+          "losses": 34
+        },
+        {
+          "rank": 3,
+          "name": "Hgtkpgr",
+          "fitness": 0.595,
+          "wins": 54,
+          "draws": 11,
+          "losses": 35
+        },
+        {
+          "rank": 4,
+          "name": "Hgpgrd",
+          "fitness": 0.55,
+          "wins": 53,
+          "draws": 4,
+          "losses": 43
+        },
+        {
+          "rank": 5,
+          "name": "Tr",
+          "fitness": 0.545,
+          "wins": 49,
+          "draws": 11,
+          "losses": 40
+        },
+        {
+          "rank": 6,
+          "name": "Ts",
+          "fitness": 0.54,
+          "wins": 51,
+          "draws": 6,
+          "losses": 43
+        },
+        {
+          "rank": 7,
+          "name": "Hgpf",
+          "fitness": 0.505,
+          "wins": 46,
+          "draws": 9,
+          "losses": 45
+        }
+      ]
+    },
+    {
+      "generation": 20,
+      "mutation_std": 0.04285714285714278,
+      "best_fitness": 0.665,
+      "mean_fitness": 0.59875,
+      "best_name": "Tdrr",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Tdrr",
+          "fitness": 0.665,
+          "wins": 64,
+          "draws": 5,
+          "losses": 31
+        },
+        {
+          "rank": 1,
+          "name": "Ty",
+          "fitness": 0.64,
+          "wins": 60,
+          "draws": 8,
+          "losses": 32
+        },
+        {
+          "rank": 2,
+          "name": "Tkd",
+          "fitness": 0.62,
+          "wins": 56,
+          "draws": 12,
+          "losses": 32
+        },
+        {
+          "rank": 3,
+          "name": "Tgr",
+          "fitness": 0.605,
+          "wins": 55,
+          "draws": 11,
+          "losses": 34
+        },
+        {
+          "rank": 4,
+          "name": "Ttgrdr",
+          "fitness": 0.6,
+          "wins": 57,
+          "draws": 6,
+          "losses": 37
+        },
+        {
+          "rank": 5,
+          "name": "Tgrgyd",
+          "fitness": 0.56,
+          "wins": 51,
+          "draws": 10,
+          "losses": 39
+        },
+        {
+          "rank": 6,
+          "name": "Trtr",
+          "fitness": 0.55,
+          "wins": 50,
+          "draws": 10,
+          "losses": 40
+        },
+        {
+          "rank": 7,
+          "name": "Tc",
+          "fitness": 0.55,
+          "wins": 49,
+          "draws": 12,
+          "losses": 39
+        }
+      ]
+    },
+    {
+      "generation": 21,
+      "mutation_std": 0.039999999999999925,
+      "best_fitness": 0.685,
+      "mean_fitness": 0.581875,
+      "best_name": "Tkkdk",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Tkkdk",
+          "fitness": 0.685,
+          "wins": 64,
+          "draws": 9,
+          "losses": 27
+        },
+        {
+          "rank": 1,
+          "name": "Tkhkdd",
+          "fitness": 0.665,
+          "wins": 63,
+          "draws": 7,
+          "losses": 30
+        },
+        {
+          "rank": 2,
+          "name": "Td",
+          "fitness": 0.61,
+          "wins": 56,
+          "draws": 10,
+          "losses": 34
+        },
+        {
+          "rank": 3,
+          "name": "Tdrr",
+          "fitness": 0.595,
+          "wins": 57,
+          "draws": 5,
+          "losses": 38
+        },
+        {
+          "rank": 4,
+          "name": "Tb",
+          "fitness": 0.56,
+          "wins": 51,
+          "draws": 10,
+          "losses": 39
+        },
+        {
+          "rank": 5,
+          "name": "Tkxkd",
+          "fitness": 0.55,
+          "wins": 50,
+          "draws": 10,
+          "losses": 40
+        },
+        {
+          "rank": 6,
+          "name": "Tktkf",
+          "fitness": 0.535,
+          "wins": 48,
+          "draws": 11,
+          "losses": 41
+        },
+        {
+          "rank": 7,
+          "name": "Tkm",
+          "fitness": 0.455,
+          "wins": 41,
+          "draws": 9,
+          "losses": 50
+        }
+      ]
+    },
+    {
+      "generation": 22,
+      "mutation_std": 0.03714285714285707,
+      "best_fitness": 0.695,
+      "mean_fitness": 0.644375,
+      "best_name": "Tkkdlkdk",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Tkkdlkdk",
+          "fitness": 0.695,
+          "wins": 65,
+          "draws": 9,
+          "losses": 26
+        },
+        {
+          "rank": 1,
+          "name": "Tkkdk",
+          "fitness": 0.665,
+          "wins": 58,
+          "draws": 17,
+          "losses": 25
+        },
+        {
+          "rank": 2,
+          "name": "Tkck",
+          "fitness": 0.665,
+          "wins": 60,
+          "draws": 13,
+          "losses": 27
+        },
+        {
+          "rank": 3,
+          "name": "Tkkdb",
+          "fitness": 0.665,
+          "wins": 59,
+          "draws": 15,
+          "losses": 26
+        },
+        {
+          "rank": 4,
+          "name": "Tkkdh",
+          "fitness": 0.645,
+          "wins": 61,
+          "draws": 7,
+          "losses": 32
+        },
+        {
+          "rank": 5,
+          "name": "Tkbdk",
+          "fitness": 0.635,
+          "wins": 61,
+          "draws": 5,
+          "losses": 34
+        },
+        {
+          "rank": 6,
+          "name": "Tv",
+          "fitness": 0.62,
+          "wins": 56,
+          "draws": 12,
+          "losses": 32
+        },
+        {
+          "rank": 7,
+          "name": "Tzdk",
+          "fitness": 0.565,
+          "wins": 53,
+          "draws": 7,
+          "losses": 40
+        }
+      ]
+    },
+    {
+      "generation": 23,
+      "mutation_std": 0.03428571428571421,
+      "best_fitness": 0.71,
+      "mean_fitness": 0.659375,
+      "best_name": "Tkj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Tkj",
+          "fitness": 0.71,
+          "wins": 67,
+          "draws": 8,
+          "losses": 25
+        },
+        {
+          "rank": 1,
+          "name": "Tkkdlkdk",
+          "fitness": 0.705,
+          "wins": 67,
+          "draws": 7,
+          "losses": 26
+        },
+        {
+          "rank": 2,
+          "name": "Tkkdkk",
+          "fitness": 0.695,
+          "wins": 65,
+          "draws": 9,
+          "losses": 26
+        },
+        {
+          "rank": 3,
+          "name": "Tkkwk",
+          "fitness": 0.675,
+          "wins": 63,
+          "draws": 9,
+          "losses": 28
+        },
+        {
+          "rank": 4,
+          "name": "Tkkljdk",
+          "fitness": 0.65,
+          "wins": 61,
+          "draws": 8,
+          "losses": 31
+        },
+        {
+          "rank": 5,
+          "name": "Tkkdvkdk",
+          "fitness": 0.645,
+          "wins": 60,
+          "draws": 9,
+          "losses": 31
+        },
+        {
+          "rank": 6,
+          "name": "Tkch",
+          "fitness": 0.605,
+          "wins": 55,
+          "draws": 11,
+          "losses": 34
+        },
+        {
+          "rank": 7,
+          "name": "Tkkdlkdp",
+          "fitness": 0.59,
+          "wins": 55,
+          "draws": 8,
+          "losses": 37
+        }
+      ]
+    },
+    {
+      "generation": 24,
+      "mutation_std": 0.031428571428571354,
+      "best_fitness": 0.685,
+      "mean_fitness": 0.62375,
+      "best_name": "Tktdw",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Tktdw",
+          "fitness": 0.685,
+          "wins": 64,
+          "draws": 9,
+          "losses": 27
+        },
+        {
+          "rank": 1,
+          "name": "Tkj",
+          "fitness": 0.665,
+          "wins": 61,
+          "draws": 11,
+          "losses": 28
+        },
+        {
+          "rank": 2,
+          "name": "Tkkwv",
+          "fitness": 0.64,
+          "wins": 61,
+          "draws": 6,
+          "losses": 33
+        },
+        {
+          "rank": 3,
+          "name": "Tntkkkdd",
+          "fitness": 0.64,
+          "wins": 59,
+          "draws": 10,
+          "losses": 31
+        },
+        {
+          "rank": 4,
+          "name": "Tkwk",
+          "fitness": 0.615,
+          "wins": 57,
+          "draws": 9,
+          "losses": 34
+        },
+        {
+          "rank": 5,
+          "name": "Tqkwtkk",
+          "fitness": 0.605,
+          "wins": 54,
+          "draws": 13,
+          "losses": 33
+        },
+        {
+          "rank": 6,
+          "name": "Tkkwg",
+          "fitness": 0.575,
+          "wins": 54,
+          "draws": 7,
+          "losses": 39
+        },
+        {
+          "rank": 7,
+          "name": "Tgkkk",
+          "fitness": 0.565,
+          "wins": 52,
+          "draws": 9,
+          "losses": 39
+        }
+      ]
+    },
+    {
+      "generation": 25,
+      "mutation_std": 0.028571428571428498,
+      "best_fitness": 0.685,
+      "mean_fitness": 0.640625,
+      "best_name": "Tktj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Tktj",
+          "fitness": 0.685,
+          "wins": 66,
+          "draws": 5,
+          "losses": 29
+        },
+        {
+          "rank": 1,
+          "name": "Tktdw",
+          "fitness": 0.68,
+          "wins": 66,
+          "draws": 4,
+          "losses": 30
+        },
+        {
+          "rank": 2,
+          "name": "Tktwkkdd",
+          "fitness": 0.675,
+          "wins": 64,
+          "draws": 7,
+          "losses": 29
+        },
+        {
+          "rank": 3,
+          "name": "Tntkdkdkj",
+          "fitness": 0.67,
+          "wins": 59,
+          "draws": 16,
+          "losses": 25
+        },
+        {
+          "rank": 4,
+          "name": "Jkkdd",
+          "fitness": 0.66,
+          "wins": 60,
+          "draws": 12,
+          "losses": 28
+        },
+        {
+          "rank": 5,
+          "name": "Tntykj",
+          "fitness": 0.615,
+          "wins": 58,
+          "draws": 7,
+          "losses": 35
+        },
+        {
+          "rank": 6,
+          "name": "Tht",
+          "fitness": 0.6,
+          "wins": 52,
+          "draws": 16,
+          "losses": 32
+        },
+        {
+          "rank": 7,
+          "name": "Ttn",
+          "fitness": 0.54,
+          "wins": 49,
+          "draws": 10,
+          "losses": 41
+        }
+      ]
+    },
+    {
+      "generation": 26,
+      "mutation_std": 0.02571428571428564,
+      "best_fitness": 0.72,
+      "mean_fitness": 0.66,
+      "best_name": "Tktj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Tktj",
+          "fitness": 0.72,
+          "wins": 66,
+          "draws": 12,
+          "losses": 22
+        },
+        {
+          "rank": 1,
+          "name": "Lktwkdd",
+          "fitness": 0.685,
+          "wins": 63,
+          "draws": 11,
+          "losses": 26
+        },
+        {
+          "rank": 2,
+          "name": "Ttkt",
+          "fitness": 0.685,
+          "wins": 64,
+          "draws": 9,
+          "losses": 27
+        },
+        {
+          "rank": 3,
+          "name": "Gtktkt",
+          "fitness": 0.67,
+          "wins": 59,
+          "draws": 16,
+          "losses": 25
+        },
+        {
+          "rank": 4,
+          "name": "Tktwj",
+          "fitness": 0.65,
+          "wins": 61,
+          "draws": 8,
+          "losses": 31
+        },
+        {
+          "rank": 5,
+          "name": "Tktwkkmk",
+          "fitness": 0.635,
+          "wins": 60,
+          "draws": 7,
+          "losses": 33
+        },
+        {
+          "rank": 6,
+          "name": "Ttktklkk",
+          "fitness": 0.625,
+          "wins": 57,
+          "draws": 11,
+          "losses": 32
+        },
+        {
+          "rank": 7,
+          "name": "Tktdd",
+          "fitness": 0.61,
+          "wins": 54,
+          "draws": 14,
+          "losses": 32
+        }
+      ]
+    },
+    {
+      "generation": 27,
+      "mutation_std": 0.022857142857142784,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.6475,
+      "best_name": "Gttktnt",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Gttktnt",
+          "fitness": 0.7,
+          "wins": 61,
+          "draws": 18,
+          "losses": 21
+        },
+        {
+          "rank": 1,
+          "name": "Tng",
+          "fitness": 0.66,
+          "wins": 62,
+          "draws": 8,
+          "losses": 30
+        },
+        {
+          "rank": 2,
+          "name": "Tgtg",
+          "fitness": 0.655,
+          "wins": 57,
+          "draws": 17,
+          "losses": 26
+        },
+        {
+          "rank": 3,
+          "name": "Tkstj",
+          "fitness": 0.655,
+          "wins": 58,
+          "draws": 15,
+          "losses": 27
+        },
+        {
+          "rank": 4,
+          "name": "Tktj",
+          "fitness": 0.64,
+          "wins": 60,
+          "draws": 8,
+          "losses": 32
+        },
+        {
+          "rank": 5,
+          "name": "Tkttj",
+          "fitness": 0.63,
+          "wins": 58,
+          "draws": 10,
+          "losses": 32
+        },
+        {
+          "rank": 6,
+          "name": "Gttktjkt",
+          "fitness": 0.62,
+          "wins": 57,
+          "draws": 10,
+          "losses": 33
+        },
+        {
+          "rank": 7,
+          "name": "Gttk",
+          "fitness": 0.62,
+          "wins": 61,
+          "draws": 2,
+          "losses": 37
+        }
+      ]
+    },
+    {
+      "generation": 28,
+      "mutation_std": 0.019999999999999928,
+      "best_fitness": 0.675,
+      "mean_fitness": 0.59625,
+      "best_name": "Ttn",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ttn",
+          "fitness": 0.675,
+          "wins": 64,
+          "draws": 7,
+          "losses": 29
+        },
+        {
+          "rank": 1,
+          "name": "Gttktnt",
+          "fitness": 0.645,
+          "wins": 57,
+          "draws": 15,
+          "losses": 28
+        },
+        {
+          "rank": 2,
+          "name": "Lg",
+          "fitness": 0.645,
+          "wins": 61,
+          "draws": 7,
+          "losses": 32
+        },
+        {
+          "rank": 3,
+          "name": "Ttz",
+          "fitness": 0.595,
+          "wins": 55,
+          "draws": 9,
+          "losses": 36
+        },
+        {
+          "rank": 4,
+          "name": "Tnf",
+          "fitness": 0.595,
+          "wins": 56,
+          "draws": 7,
+          "losses": 37
+        },
+        {
+          "rank": 5,
+          "name": "Tgtt",
+          "fitness": 0.58,
+          "wins": 53,
+          "draws": 10,
+          "losses": 37
+        },
+        {
+          "rank": 6,
+          "name": "Tngtng",
+          "fitness": 0.525,
+          "wins": 49,
+          "draws": 7,
+          "losses": 44
+        },
+        {
+          "rank": 7,
+          "name": "Tnxng",
+          "fitness": 0.51,
+          "wins": 48,
+          "draws": 6,
+          "losses": 46
+        }
+      ]
+    },
+    {
+      "generation": 29,
+      "mutation_std": null,
+      "best_fitness": 0.68,
+      "mean_fitness": 0.62375,
+      "best_name": "Ttj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ttj",
+          "fitness": 0.68,
+          "wins": 63,
+          "draws": 10,
+          "losses": 27
+        },
+        {
+          "rank": 1,
+          "name": "Tttz",
+          "fitness": 0.655,
+          "wins": 61,
+          "draws": 9,
+          "losses": 30
+        },
+        {
+          "rank": 2,
+          "name": "Ttn",
+          "fitness": 0.64,
+          "wins": 60,
+          "draws": 8,
+          "losses": 32
+        },
+        {
+          "rank": 3,
+          "name": "Twz",
+          "fitness": 0.635,
+          "wins": 60,
+          "draws": 7,
+          "losses": 33
+        },
+        {
+          "rank": 4,
+          "name": "Tz",
+          "fitness": 0.635,
+          "wins": 60,
+          "draws": 7,
+          "losses": 33
+        },
+        {
+          "rank": 5,
+          "name": "Tttz",
+          "fitness": 0.63,
+          "wins": 58,
+          "draws": 10,
+          "losses": 32
+        },
+        {
+          "rank": 6,
+          "name": "Nttztz",
+          "fitness": 0.57,
+          "wins": 52,
+          "draws": 10,
+          "losses": 38
+        },
+        {
+          "rank": 7,
+          "name": "Txtz",
+          "fitness": 0.545,
+          "wins": 51,
+          "draws": 7,
+          "losses": 42
+        }
+      ]
+    }
+  ]
+}

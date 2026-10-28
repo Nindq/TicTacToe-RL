@@ -1,0 +1,20 @@
+{
+  "filename": "champ_2026_10M_28D__02h_23m_02s_gen_13.pth",
+  "generation": 13,
+  "run_id": "2026_10M_28D__02h_23m_02s",
+  "fitness": 0.74,
+  "name": "Iiiizo",
+  "config": {
+    "seed": 10,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "crossover": true,
+    "inheritance_probability": 0.5,
+    "mutation_std": 0.05999999999999992,
+    "annealing": true,
+    "starting_std": 0.1,
+    "ending_std": 0.02,
+    "pytorch_version": "2.14.1+cu132"
+  }
+}

@@ -1,0 +1,2212 @@
+{
+  "config": {
+    "seed": 12,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "crossover": true,
+    "Inheritance_Probability": 0.5,
+    "mutation_std": 0.1,
+    "annealing": true,
+    "starting_std": 0.1,
+    "ending_std": 0.02,
+    "games_per_candidate": 100,
+    "selection_mode": "tournament",
+    "tournament_size": 3,
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "mutation_std": 0.1,
+      "best_fitness": 0.54,
+      "mean_fitness": 0.5,
+      "best_name": "Onaj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Onaj",
+          "fitness": 0.54,
+          "wins": 48,
+          "draws": 12,
+          "losses": 40
+        },
+        {
+          "rank": 1,
+          "name": "Poya",
+          "fitness": 0.525,
+          "wins": 48,
+          "draws": 9,
+          "losses": 43
+        },
+        {
+          "rank": 2,
+          "name": "Guc",
+          "fitness": 0.525,
+          "wins": 45,
+          "draws": 15,
+          "losses": 40
+        },
+        {
+          "rank": 3,
+          "name": "Uba",
+          "fitness": 0.52,
+          "wins": 44,
+          "draws": 16,
+          "losses": 40
+        },
+        {
+          "rank": 4,
+          "name": "Viddd",
+          "fitness": 0.5,
+          "wins": 44,
+          "draws": 12,
+          "losses": 44
+        },
+        {
+          "rank": 5,
+          "name": "Hdot",
+          "fitness": 0.5,
+          "wins": 45,
+          "draws": 10,
+          "losses": 45
+        },
+        {
+          "rank": 6,
+          "name": "Kkoo",
+          "fitness": 0.475,
+          "wins": 42,
+          "draws": 11,
+          "losses": 47
+        },
+        {
+          "rank": 7,
+          "name": "Ipp",
+          "fitness": 0.415,
+          "wins": 35,
+          "draws": 13,
+          "losses": 52
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "mutation_std": 0.09714285714285714,
+      "best_fitness": 0.565,
+      "mean_fitness": 0.504375,
+      "best_name": "Onak",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Onak",
+          "fitness": 0.565,
+          "wins": 53,
+          "draws": 7,
+          "losses": 40
+        },
+        {
+          "rank": 1,
+          "name": "Ube",
+          "fitness": 0.56,
+          "wins": 50,
+          "draws": 12,
+          "losses": 38
+        },
+        {
+          "rank": 2,
+          "name": "Uaj",
+          "fitness": 0.545,
+          "wins": 50,
+          "draws": 9,
+          "losses": 41
+        },
+        {
+          "rank": 3,
+          "name": "Ovj",
+          "fitness": 0.53,
+          "wins": 47,
+          "draws": 12,
+          "losses": 41
+        },
+        {
+          "rank": 4,
+          "name": "Uqa",
+          "fitness": 0.515,
+          "wins": 47,
+          "draws": 9,
+          "losses": 44
+        },
+        {
+          "rank": 5,
+          "name": "Onaj",
+          "fitness": 0.475,
+          "wins": 41,
+          "draws": 13,
+          "losses": 46
+        },
+        {
+          "rank": 6,
+          "name": "Uoraj",
+          "fitness": 0.425,
+          "wins": 40,
+          "draws": 5,
+          "losses": 55
+        },
+        {
+          "rank": 7,
+          "name": "Onau",
+          "fitness": 0.42,
+          "wins": 35,
+          "draws": 14,
+          "losses": 51
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "mutation_std": 0.09428571428571428,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.49875,
+      "best_name": "Uaxu",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uaxu",
+          "fitness": 0.625,
+          "wins": 57,
+          "draws": 11,
+          "losses": 32
+        },
+        {
+          "rank": 1,
+          "name": "Onak",
+          "fitness": 0.525,
+          "wins": 49,
+          "draws": 7,
+          "losses": 44
+        },
+        {
+          "rank": 2,
+          "name": "Uauhaj",
+          "fitness": 0.52,
+          "wins": 47,
+          "draws": 10,
+          "losses": 43
+        },
+        {
+          "rank": 3,
+          "name": "Uuaajj",
+          "fitness": 0.5,
+          "wins": 42,
+          "draws": 16,
+          "losses": 42
+        },
+        {
+          "rank": 4,
+          "name": "Uaw",
+          "fitness": 0.495,
+          "wins": 43,
+          "draws": 13,
+          "losses": 44
+        },
+        {
+          "rank": 5,
+          "name": "Uab",
+          "fitness": 0.465,
+          "wins": 38,
+          "draws": 17,
+          "losses": 45
+        },
+        {
+          "rank": 6,
+          "name": "Ouaa",
+          "fitness": 0.46,
+          "wins": 40,
+          "draws": 12,
+          "losses": 48
+        },
+        {
+          "rank": 7,
+          "name": "Uajue",
+          "fitness": 0.4,
+          "wins": 34,
+          "draws": 12,
+          "losses": 54
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "mutation_std": 0.09142857142857141,
+      "best_fitness": 0.555,
+      "mean_fitness": 0.478125,
+      "best_name": "Uaukauhaj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uaukauhaj",
+          "fitness": 0.555,
+          "wins": 47,
+          "draws": 17,
+          "losses": 36
+        },
+        {
+          "rank": 1,
+          "name": "Uaxou",
+          "fitness": 0.53,
+          "wins": 45,
+          "draws": 16,
+          "losses": 39
+        },
+        {
+          "rank": 2,
+          "name": "Uiaaxuuh",
+          "fitness": 0.51,
+          "wins": 45,
+          "draws": 12,
+          "losses": 43
+        },
+        {
+          "rank": 3,
+          "name": "Uacaj",
+          "fitness": 0.485,
+          "wins": 42,
+          "draws": 13,
+          "losses": 45
+        },
+        {
+          "rank": 4,
+          "name": "Uaxu",
+          "fitness": 0.475,
+          "wins": 40,
+          "draws": 15,
+          "losses": 45
+        },
+        {
+          "rank": 5,
+          "name": "Uabaj",
+          "fitness": 0.435,
+          "wins": 39,
+          "draws": 9,
+          "losses": 52
+        },
+        {
+          "rank": 6,
+          "name": "Uaufaj",
+          "fitness": 0.435,
+          "wins": 37,
+          "draws": 13,
+          "losses": 50
+        },
+        {
+          "rank": 7,
+          "name": "Euaa",
+          "fitness": 0.4,
+          "wins": 33,
+          "draws": 14,
+          "losses": 53
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "mutation_std": 0.08857142857142855,
+      "best_fitness": 0.54,
+      "mean_fitness": 0.44,
+      "best_name": "Uoj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uoj",
+          "fitness": 0.54,
+          "wins": 47,
+          "draws": 14,
+          "losses": 39
+        },
+        {
+          "rank": 1,
+          "name": "Uauuako",
+          "fitness": 0.525,
+          "wins": 49,
+          "draws": 7,
+          "losses": 44
+        },
+        {
+          "rank": 2,
+          "name": "Uauua",
+          "fitness": 0.495,
+          "wins": 45,
+          "draws": 9,
+          "losses": 46
+        },
+        {
+          "rank": 3,
+          "name": "Uaukauhaj",
+          "fitness": 0.45,
+          "wins": 40,
+          "draws": 10,
+          "losses": 50
+        },
+        {
+          "rank": 4,
+          "name": "Uuaou",
+          "fitness": 0.405,
+          "wins": 38,
+          "draws": 5,
+          "losses": 57
+        },
+        {
+          "rank": 5,
+          "name": "Uuauak",
+          "fitness": 0.405,
+          "wins": 36,
+          "draws": 9,
+          "losses": 55
+        },
+        {
+          "rank": 6,
+          "name": "Uaukausaj",
+          "fitness": 0.355,
+          "wins": 31,
+          "draws": 9,
+          "losses": 60
+        },
+        {
+          "rank": 7,
+          "name": "Uaukaehaj",
+          "fitness": 0.345,
+          "wins": 29,
+          "draws": 11,
+          "losses": 60
+        }
+      ]
+    },
+    {
+      "generation": 5,
+      "mutation_std": 0.08571428571428569,
+      "best_fitness": 0.51,
+      "mean_fitness": 0.411875,
+      "best_name": "Uoj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uoj",
+          "fitness": 0.51,
+          "wins": 47,
+          "draws": 8,
+          "losses": 45
+        },
+        {
+          "rank": 1,
+          "name": "Uuuuaku",
+          "fitness": 0.475,
+          "wins": 42,
+          "draws": 11,
+          "losses": 47
+        },
+        {
+          "rank": 2,
+          "name": "Uueoj",
+          "fitness": 0.425,
+          "wins": 38,
+          "draws": 9,
+          "losses": 53
+        },
+        {
+          "rank": 3,
+          "name": "Uuua",
+          "fitness": 0.415,
+          "wins": 36,
+          "draws": 11,
+          "losses": 53
+        },
+        {
+          "rank": 4,
+          "name": "Oauak",
+          "fitness": 0.415,
+          "wins": 37,
+          "draws": 9,
+          "losses": 54
+        },
+        {
+          "rank": 5,
+          "name": "Uuauuauak",
+          "fitness": 0.41,
+          "wins": 39,
+          "draws": 4,
+          "losses": 57
+        },
+        {
+          "rank": 6,
+          "name": "Uuax",
+          "fitness": 0.37,
+          "wins": 34,
+          "draws": 6,
+          "losses": 60
+        },
+        {
+          "rank": 7,
+          "name": "Uuauaz",
+          "fitness": 0.275,
+          "wins": 24,
+          "draws": 7,
+          "losses": 69
+        }
+      ]
+    },
+    {
+      "generation": 6,
+      "mutation_std": 0.08285714285714282,
+      "best_fitness": 0.555,
+      "mean_fitness": 0.489375,
+      "best_name": "Uuofo",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uuofo",
+          "fitness": 0.555,
+          "wins": 48,
+          "draws": 15,
+          "losses": 37
+        },
+        {
+          "rank": 1,
+          "name": "Uoj",
+          "fitness": 0.53,
+          "wins": 50,
+          "draws": 6,
+          "losses": 44
+        },
+        {
+          "rank": 2,
+          "name": "Iuoojj",
+          "fitness": 0.505,
+          "wins": 47,
+          "draws": 7,
+          "losses": 46
+        },
+        {
+          "rank": 3,
+          "name": "Uuoozj",
+          "fitness": 0.5,
+          "wins": 46,
+          "draws": 8,
+          "losses": 46
+        },
+        {
+          "rank": 4,
+          "name": "Uob",
+          "fitness": 0.485,
+          "wins": 45,
+          "draws": 7,
+          "losses": 48
+        },
+        {
+          "rank": 5,
+          "name": "Uoq",
+          "fitness": 0.485,
+          "wins": 41,
+          "draws": 15,
+          "losses": 44
+        },
+        {
+          "rank": 6,
+          "name": "Uojioj",
+          "fitness": 0.435,
+          "wins": 38,
+          "draws": 11,
+          "losses": 51
+        },
+        {
+          "rank": 7,
+          "name": "Uoij",
+          "fitness": 0.42,
+          "wins": 37,
+          "draws": 10,
+          "losses": 53
+        }
+      ]
+    },
+    {
+      "generation": 7,
+      "mutation_std": 0.07999999999999996,
+      "best_fitness": 0.585,
+      "mean_fitness": 0.515,
+      "best_name": "Uuofou",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uuofou",
+          "fitness": 0.585,
+          "wins": 52,
+          "draws": 13,
+          "losses": 35
+        },
+        {
+          "rank": 1,
+          "name": "Uuej",
+          "fitness": 0.545,
+          "wins": 50,
+          "draws": 9,
+          "losses": 41
+        },
+        {
+          "rank": 2,
+          "name": "Euofo",
+          "fitness": 0.535,
+          "wins": 50,
+          "draws": 7,
+          "losses": 43
+        },
+        {
+          "rank": 3,
+          "name": "Uuefo",
+          "fitness": 0.53,
+          "wins": 46,
+          "draws": 14,
+          "losses": 40
+        },
+        {
+          "rank": 4,
+          "name": "Uuofo",
+          "fitness": 0.52,
+          "wins": 48,
+          "draws": 8,
+          "losses": 44
+        },
+        {
+          "rank": 5,
+          "name": "Uoofi",
+          "fitness": 0.48,
+          "wins": 44,
+          "draws": 8,
+          "losses": 48
+        },
+        {
+          "rank": 6,
+          "name": "Uuolo",
+          "fitness": 0.465,
+          "wins": 43,
+          "draws": 7,
+          "losses": 50
+        },
+        {
+          "rank": 7,
+          "name": "Ioij",
+          "fitness": 0.46,
+          "wins": 41,
+          "draws": 10,
+          "losses": 49
+        }
+      ]
+    },
+    {
+      "generation": 8,
+      "mutation_std": 0.0771428571428571,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.550625,
+      "best_name": "Auu",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Auu",
+          "fitness": 0.625,
+          "wins": 55,
+          "draws": 15,
+          "losses": 30
+        },
+        {
+          "rank": 1,
+          "name": "Uuefuuof",
+          "fitness": 0.605,
+          "wins": 57,
+          "draws": 7,
+          "losses": 36
+        },
+        {
+          "rank": 2,
+          "name": "Uuuofou",
+          "fitness": 0.59,
+          "wins": 55,
+          "draws": 8,
+          "losses": 37
+        },
+        {
+          "rank": 3,
+          "name": "Uuouuo",
+          "fitness": 0.57,
+          "wins": 54,
+          "draws": 6,
+          "losses": 40
+        },
+        {
+          "rank": 4,
+          "name": "Uuuuoef",
+          "fitness": 0.55,
+          "wins": 50,
+          "draws": 10,
+          "losses": 40
+        },
+        {
+          "rank": 5,
+          "name": "Uuefi",
+          "fitness": 0.545,
+          "wins": 50,
+          "draws": 9,
+          "losses": 41
+        },
+        {
+          "rank": 6,
+          "name": "Uuufo",
+          "fitness": 0.475,
+          "wins": 42,
+          "draws": 11,
+          "losses": 47
+        },
+        {
+          "rank": 7,
+          "name": "Uuofou",
+          "fitness": 0.445,
+          "wins": 39,
+          "draws": 11,
+          "losses": 50
+        }
+      ]
+    },
+    {
+      "generation": 9,
+      "mutation_std": 0.07428571428571423,
+      "best_fitness": 0.68,
+      "mean_fitness": 0.569375,
+      "best_name": "Uuepuu",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uuepuu",
+          "fitness": 0.68,
+          "wins": 64,
+          "draws": 8,
+          "losses": 28
+        },
+        {
+          "rank": 1,
+          "name": "Aefueof",
+          "fitness": 0.595,
+          "wins": 56,
+          "draws": 7,
+          "losses": 37
+        },
+        {
+          "rank": 2,
+          "name": "Auefuuu",
+          "fitness": 0.575,
+          "wins": 51,
+          "draws": 13,
+          "losses": 36
+        },
+        {
+          "rank": 3,
+          "name": "Uuuef",
+          "fitness": 0.565,
+          "wins": 53,
+          "draws": 7,
+          "losses": 40
+        },
+        {
+          "rank": 4,
+          "name": "Auu",
+          "fitness": 0.555,
+          "wins": 50,
+          "draws": 11,
+          "losses": 39
+        },
+        {
+          "rank": 5,
+          "name": "Aauu",
+          "fitness": 0.545,
+          "wins": 48,
+          "draws": 13,
+          "losses": 39
+        },
+        {
+          "rank": 6,
+          "name": "Auee",
+          "fitness": 0.535,
+          "wins": 48,
+          "draws": 11,
+          "losses": 41
+        },
+        {
+          "rank": 7,
+          "name": "Aaiuuu",
+          "fitness": 0.505,
+          "wins": 47,
+          "draws": 7,
+          "losses": 46
+        }
+      ]
+    },
+    {
+      "generation": 10,
+      "mutation_std": 0.07142857142857137,
+      "best_fitness": 0.655,
+      "mean_fitness": 0.525,
+      "best_name": "Uuepuu",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uuepuu",
+          "fitness": 0.655,
+          "wins": 63,
+          "draws": 5,
+          "losses": 32
+        },
+        {
+          "rank": 1,
+          "name": "Uoepuu",
+          "fitness": 0.56,
+          "wins": 52,
+          "draws": 8,
+          "losses": 40
+        },
+        {
+          "rank": 2,
+          "name": "Uueuuu",
+          "fitness": 0.54,
+          "wins": 49,
+          "draws": 10,
+          "losses": 41
+        },
+        {
+          "rank": 3,
+          "name": "Ueepuu",
+          "fitness": 0.53,
+          "wins": 49,
+          "draws": 8,
+          "losses": 43
+        },
+        {
+          "rank": 4,
+          "name": "Ueepuu",
+          "fitness": 0.51,
+          "wins": 47,
+          "draws": 8,
+          "losses": 45
+        },
+        {
+          "rank": 5,
+          "name": "Euepuu",
+          "fitness": 0.51,
+          "wins": 42,
+          "draws": 18,
+          "losses": 40
+        },
+        {
+          "rank": 6,
+          "name": "Uuueuuif",
+          "fitness": 0.495,
+          "wins": 45,
+          "draws": 9,
+          "losses": 46
+        },
+        {
+          "rank": 7,
+          "name": "Uuuuuef",
+          "fitness": 0.4,
+          "wins": 36,
+          "draws": 8,
+          "losses": 56
+        }
+      ]
+    },
+    {
+      "generation": 11,
+      "mutation_std": 0.0685714285714285,
+      "best_fitness": 0.675,
+      "mean_fitness": 0.5725,
+      "best_name": "Uuepuu",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uuepuu",
+          "fitness": 0.675,
+          "wins": 64,
+          "draws": 7,
+          "losses": 29
+        },
+        {
+          "rank": 1,
+          "name": "Oueee",
+          "fitness": 0.605,
+          "wins": 55,
+          "draws": 11,
+          "losses": 34
+        },
+        {
+          "rank": 2,
+          "name": "Uuooepu",
+          "fitness": 0.59,
+          "wins": 56,
+          "draws": 6,
+          "losses": 38
+        },
+        {
+          "rank": 3,
+          "name": "Auoepou",
+          "fitness": 0.58,
+          "wins": 52,
+          "draws": 12,
+          "losses": 36
+        },
+        {
+          "rank": 4,
+          "name": "Uuoep",
+          "fitness": 0.57,
+          "wins": 52,
+          "draws": 10,
+          "losses": 38
+        },
+        {
+          "rank": 5,
+          "name": "Uobuu",
+          "fitness": 0.55,
+          "wins": 50,
+          "draws": 10,
+          "losses": 40
+        },
+        {
+          "rank": 6,
+          "name": "Ueeru",
+          "fitness": 0.54,
+          "wins": 50,
+          "draws": 8,
+          "losses": 42
+        },
+        {
+          "rank": 7,
+          "name": "Uouoe",
+          "fitness": 0.47,
+          "wins": 47,
+          "draws": 0,
+          "losses": 53
+        }
+      ]
+    },
+    {
+      "generation": 12,
+      "mutation_std": 0.06571428571428564,
+      "best_fitness": 0.67,
+      "mean_fitness": 0.59125,
+      "best_name": "Oouueee",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Oouueee",
+          "fitness": 0.67,
+          "wins": 63,
+          "draws": 8,
+          "losses": 29
+        },
+        {
+          "rank": 1,
+          "name": "Uuepua",
+          "fitness": 0.65,
+          "wins": 57,
+          "draws": 16,
+          "losses": 27
+        },
+        {
+          "rank": 2,
+          "name": "Uuepuu",
+          "fitness": 0.635,
+          "wins": 59,
+          "draws": 9,
+          "losses": 32
+        },
+        {
+          "rank": 3,
+          "name": "Au",
+          "fitness": 0.59,
+          "wins": 53,
+          "draws": 12,
+          "losses": 35
+        },
+        {
+          "rank": 4,
+          "name": "Uee",
+          "fitness": 0.575,
+          "wins": 54,
+          "draws": 7,
+          "losses": 39
+        },
+        {
+          "rank": 5,
+          "name": "Uuepuupuu",
+          "fitness": 0.56,
+          "wins": 51,
+          "draws": 10,
+          "losses": 39
+        },
+        {
+          "rank": 6,
+          "name": "Uuehuu",
+          "fitness": 0.54,
+          "wins": 51,
+          "draws": 6,
+          "losses": 43
+        },
+        {
+          "rank": 7,
+          "name": "Oueaeee",
+          "fitness": 0.51,
+          "wins": 46,
+          "draws": 10,
+          "losses": 44
+        }
+      ]
+    },
+    {
+      "generation": 13,
+      "mutation_std": 0.06285714285714278,
+      "best_fitness": 0.68,
+      "mean_fitness": 0.595625,
+      "best_name": "Uueyupua",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Uueyupua",
+          "fitness": 0.68,
+          "wins": 61,
+          "draws": 14,
+          "losses": 25
+        },
+        {
+          "rank": 1,
+          "name": "Oouueee",
+          "fitness": 0.65,
+          "wins": 61,
+          "draws": 8,
+          "losses": 31
+        },
+        {
+          "rank": 2,
+          "name": "Uiepupua",
+          "fitness": 0.625,
+          "wins": 60,
+          "draws": 5,
+          "losses": 35
+        },
+        {
+          "rank": 3,
+          "name": "Uuepoa",
+          "fitness": 0.615,
+          "wins": 57,
+          "draws": 9,
+          "losses": 34
+        },
+        {
+          "rank": 4,
+          "name": "Uuuu",
+          "fitness": 0.59,
+          "wins": 52,
+          "draws": 14,
+          "losses": 34
+        },
+        {
+          "rank": 5,
+          "name": "Ouepua",
+          "fitness": 0.575,
+          "wins": 55,
+          "draws": 5,
+          "losses": 40
+        },
+        {
+          "rank": 6,
+          "name": "Unua",
+          "fitness": 0.555,
+          "wins": 52,
+          "draws": 7,
+          "losses": 41
+        },
+        {
+          "rank": 7,
+          "name": "Uueku",
+          "fitness": 0.475,
+          "wins": 45,
+          "draws": 5,
+          "losses": 50
+        }
+      ]
+    },
+    {
+      "generation": 14,
+      "mutation_std": 0.05999999999999992,
+      "best_fitness": 0.675,
+      "mean_fitness": 0.605,
+      "best_name": "Ou",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ou",
+          "fitness": 0.675,
+          "wins": 64,
+          "draws": 7,
+          "losses": 29
+        },
+        {
+          "rank": 1,
+          "name": "Ouezua",
+          "fitness": 0.64,
+          "wins": 59,
+          "draws": 10,
+          "losses": 31
+        },
+        {
+          "rank": 2,
+          "name": "Auee",
+          "fitness": 0.63,
+          "wins": 57,
+          "draws": 12,
+          "losses": 31
+        },
+        {
+          "rank": 3,
+          "name": "Eouueepp",
+          "fitness": 0.625,
+          "wins": 59,
+          "draws": 7,
+          "losses": 34
+        },
+        {
+          "rank": 4,
+          "name": "Oouoouuu",
+          "fitness": 0.605,
+          "wins": 55,
+          "draws": 11,
+          "losses": 34
+        },
+        {
+          "rank": 5,
+          "name": "Uueyupua",
+          "fitness": 0.57,
+          "wins": 52,
+          "draws": 10,
+          "losses": 38
+        },
+        {
+          "rank": 6,
+          "name": "Oeouu",
+          "fitness": 0.55,
+          "wins": 53,
+          "draws": 4,
+          "losses": 43
+        },
+        {
+          "rank": 7,
+          "name": "Ooueeo",
+          "fitness": 0.545,
+          "wins": 52,
+          "draws": 5,
+          "losses": 43
+        }
+      ]
+    },
+    {
+      "generation": 15,
+      "mutation_std": 0.057142857142857065,
+      "best_fitness": 0.71,
+      "mean_fitness": 0.643125,
+      "best_name": "Ou",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ou",
+          "fitness": 0.71,
+          "wins": 67,
+          "draws": 8,
+          "losses": 25
+        },
+        {
+          "rank": 1,
+          "name": "Oe",
+          "fitness": 0.695,
+          "wins": 63,
+          "draws": 13,
+          "losses": 24
+        },
+        {
+          "rank": 2,
+          "name": "Au",
+          "fitness": 0.67,
+          "wins": 59,
+          "draws": 16,
+          "losses": 25
+        },
+        {
+          "rank": 3,
+          "name": "Ouou",
+          "fitness": 0.66,
+          "wins": 62,
+          "draws": 8,
+          "losses": 30
+        },
+        {
+          "rank": 4,
+          "name": "Au",
+          "fitness": 0.63,
+          "wins": 57,
+          "draws": 12,
+          "losses": 31
+        },
+        {
+          "rank": 5,
+          "name": "Euou",
+          "fitness": 0.61,
+          "wins": 58,
+          "draws": 6,
+          "losses": 36
+        },
+        {
+          "rank": 6,
+          "name": "Au",
+          "fitness": 0.605,
+          "wins": 57,
+          "draws": 7,
+          "losses": 36
+        },
+        {
+          "rank": 7,
+          "name": "Oa",
+          "fitness": 0.565,
+          "wins": 54,
+          "draws": 5,
+          "losses": 41
+        }
+      ]
+    },
+    {
+      "generation": 16,
+      "mutation_std": 0.05428571428571421,
+      "best_fitness": 0.8,
+      "mean_fitness": 0.653125,
+      "best_name": "Ouou",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ouou",
+          "fitness": 0.8,
+          "wins": 79,
+          "draws": 2,
+          "losses": 19
+        },
+        {
+          "rank": 1,
+          "name": "Ae",
+          "fitness": 0.69,
+          "wins": 64,
+          "draws": 10,
+          "losses": 26
+        },
+        {
+          "rank": 2,
+          "name": "Auou",
+          "fitness": 0.68,
+          "wins": 63,
+          "draws": 10,
+          "losses": 27
+        },
+        {
+          "rank": 3,
+          "name": "Uu",
+          "fitness": 0.655,
+          "wins": 58,
+          "draws": 15,
+          "losses": 27
+        },
+        {
+          "rank": 4,
+          "name": "Ou",
+          "fitness": 0.63,
+          "wins": 57,
+          "draws": 12,
+          "losses": 31
+        },
+        {
+          "rank": 5,
+          "name": "Oo",
+          "fitness": 0.605,
+          "wins": 54,
+          "draws": 13,
+          "losses": 33
+        },
+        {
+          "rank": 6,
+          "name": "Iu",
+          "fitness": 0.585,
+          "wins": 53,
+          "draws": 11,
+          "losses": 36
+        },
+        {
+          "rank": 7,
+          "name": "Eu",
+          "fitness": 0.58,
+          "wins": 53,
+          "draws": 10,
+          "losses": 37
+        }
+      ]
+    },
+    {
+      "generation": 17,
+      "mutation_std": 0.05142857142857135,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.629375,
+      "best_name": "Ououeuo",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ououeuo",
+          "fitness": 0.7,
+          "wins": 67,
+          "draws": 6,
+          "losses": 27
+        },
+        {
+          "rank": 1,
+          "name": "Ououa",
+          "fitness": 0.655,
+          "wins": 62,
+          "draws": 7,
+          "losses": 31
+        },
+        {
+          "rank": 2,
+          "name": "Oouaouou",
+          "fitness": 0.64,
+          "wins": 59,
+          "draws": 10,
+          "losses": 31
+        },
+        {
+          "rank": 3,
+          "name": "Ouuoi",
+          "fitness": 0.63,
+          "wins": 59,
+          "draws": 8,
+          "losses": 33
+        },
+        {
+          "rank": 4,
+          "name": "Ouou",
+          "fitness": 0.62,
+          "wins": 61,
+          "draws": 2,
+          "losses": 37
+        },
+        {
+          "rank": 5,
+          "name": "Ouau",
+          "fitness": 0.61,
+          "wins": 58,
+          "draws": 6,
+          "losses": 36
+        },
+        {
+          "rank": 6,
+          "name": "Auoe",
+          "fitness": 0.605,
+          "wins": 54,
+          "draws": 13,
+          "losses": 33
+        },
+        {
+          "rank": 7,
+          "name": "Aeou",
+          "fitness": 0.575,
+          "wins": 53,
+          "draws": 9,
+          "losses": 38
+        }
+      ]
+    },
+    {
+      "generation": 18,
+      "mutation_std": 0.048571428571428495,
+      "best_fitness": 0.725,
+      "mean_fitness": 0.63625,
+      "best_name": "Ouo",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ouo",
+          "fitness": 0.725,
+          "wins": 68,
+          "draws": 9,
+          "losses": 23
+        },
+        {
+          "rank": 1,
+          "name": "Ouoaauuo",
+          "fitness": 0.675,
+          "wins": 63,
+          "draws": 9,
+          "losses": 28
+        },
+        {
+          "rank": 2,
+          "name": "Iuau",
+          "fitness": 0.66,
+          "wins": 61,
+          "draws": 10,
+          "losses": 29
+        },
+        {
+          "rank": 3,
+          "name": "Aou",
+          "fitness": 0.63,
+          "wins": 57,
+          "draws": 12,
+          "losses": 31
+        },
+        {
+          "rank": 4,
+          "name": "Oueau",
+          "fitness": 0.625,
+          "wins": 59,
+          "draws": 7,
+          "losses": 34
+        },
+        {
+          "rank": 5,
+          "name": "Ouai",
+          "fitness": 0.615,
+          "wins": 57,
+          "draws": 9,
+          "losses": 34
+        },
+        {
+          "rank": 6,
+          "name": "Ououeuo",
+          "fitness": 0.61,
+          "wins": 59,
+          "draws": 4,
+          "losses": 37
+        },
+        {
+          "rank": 7,
+          "name": "Uuui",
+          "fitness": 0.55,
+          "wins": 53,
+          "draws": 4,
+          "losses": 43
+        }
+      ]
+    },
+    {
+      "generation": 19,
+      "mutation_std": 0.04571428571428564,
+      "best_fitness": 0.675,
+      "mean_fitness": 0.639375,
+      "best_name": "Ououoi",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ououoi",
+          "fitness": 0.675,
+          "wins": 63,
+          "draws": 9,
+          "losses": 28
+        },
+        {
+          "rank": 1,
+          "name": "Ouoouoae",
+          "fitness": 0.665,
+          "wins": 63,
+          "draws": 7,
+          "losses": 30
+        },
+        {
+          "rank": 2,
+          "name": "Ouio",
+          "fitness": 0.655,
+          "wins": 58,
+          "draws": 15,
+          "losses": 27
+        },
+        {
+          "rank": 3,
+          "name": "Ouo",
+          "fitness": 0.64,
+          "wins": 61,
+          "draws": 6,
+          "losses": 33
+        },
+        {
+          "rank": 4,
+          "name": "Ouoaoaa",
+          "fitness": 0.64,
+          "wins": 61,
+          "draws": 6,
+          "losses": 33
+        },
+        {
+          "rank": 5,
+          "name": "Euo",
+          "fitness": 0.62,
+          "wins": 57,
+          "draws": 10,
+          "losses": 33
+        },
+        {
+          "rank": 6,
+          "name": "Uuoouoaa",
+          "fitness": 0.62,
+          "wins": 59,
+          "draws": 6,
+          "losses": 35
+        },
+        {
+          "rank": 7,
+          "name": "Oui",
+          "fitness": 0.6,
+          "wins": 55,
+          "draws": 10,
+          "losses": 35
+        }
+      ]
+    },
+    {
+      "generation": 20,
+      "mutation_std": 0.04285714285714278,
+      "best_fitness": 0.71,
+      "mean_fitness": 0.6643749999999999,
+      "best_name": "Oouaoui",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Oouaoui",
+          "fitness": 0.71,
+          "wins": 65,
+          "draws": 12,
+          "losses": 23
+        },
+        {
+          "rank": 1,
+          "name": "Oo",
+          "fitness": 0.705,
+          "wins": 66,
+          "draws": 9,
+          "losses": 25
+        },
+        {
+          "rank": 2,
+          "name": "Oouuioi",
+          "fitness": 0.69,
+          "wins": 64,
+          "draws": 10,
+          "losses": 26
+        },
+        {
+          "rank": 3,
+          "name": "Ououoi",
+          "fitness": 0.685,
+          "wins": 66,
+          "draws": 5,
+          "losses": 29
+        },
+        {
+          "rank": 4,
+          "name": "Ouoo",
+          "fitness": 0.675,
+          "wins": 60,
+          "draws": 15,
+          "losses": 25
+        },
+        {
+          "rank": 5,
+          "name": "Aio",
+          "fitness": 0.63,
+          "wins": 57,
+          "draws": 12,
+          "losses": 31
+        },
+        {
+          "rank": 6,
+          "name": "Ouo",
+          "fitness": 0.63,
+          "wins": 59,
+          "draws": 8,
+          "losses": 33
+        },
+        {
+          "rank": 7,
+          "name": "Ououio",
+          "fitness": 0.59,
+          "wins": 54,
+          "draws": 10,
+          "losses": 36
+        }
+      ]
+    },
+    {
+      "generation": 21,
+      "mutation_std": 0.039999999999999925,
+      "best_fitness": 0.715,
+      "mean_fitness": 0.666875,
+      "best_name": "Oooua",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Oooua",
+          "fitness": 0.715,
+          "wins": 66,
+          "draws": 11,
+          "losses": 23
+        },
+        {
+          "rank": 1,
+          "name": "Oouui",
+          "fitness": 0.7,
+          "wins": 63,
+          "draws": 14,
+          "losses": 23
+        },
+        {
+          "rank": 2,
+          "name": "Oouaoi",
+          "fitness": 0.675,
+          "wins": 62,
+          "draws": 11,
+          "losses": 27
+        },
+        {
+          "rank": 3,
+          "name": "Ououoo",
+          "fitness": 0.675,
+          "wins": 65,
+          "draws": 5,
+          "losses": 30
+        },
+        {
+          "rank": 4,
+          "name": "Ouoeoi",
+          "fitness": 0.66,
+          "wins": 62,
+          "draws": 8,
+          "losses": 30
+        },
+        {
+          "rank": 5,
+          "name": "Oouaoue",
+          "fitness": 0.645,
+          "wins": 61,
+          "draws": 7,
+          "losses": 32
+        },
+        {
+          "rank": 6,
+          "name": "Oiou",
+          "fitness": 0.635,
+          "wins": 61,
+          "draws": 5,
+          "losses": 34
+        },
+        {
+          "rank": 7,
+          "name": "Oouaoui",
+          "fitness": 0.63,
+          "wins": 59,
+          "draws": 8,
+          "losses": 33
+        }
+      ]
+    },
+    {
+      "generation": 22,
+      "mutation_std": 0.03714285714285707,
+      "best_fitness": 0.74,
+      "mean_fitness": 0.68875,
+      "best_name": "Ooooouo",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ooooouo",
+          "fitness": 0.74,
+          "wins": 70,
+          "draws": 8,
+          "losses": 22
+        },
+        {
+          "rank": 1,
+          "name": "Ooouo",
+          "fitness": 0.73,
+          "wins": 67,
+          "draws": 12,
+          "losses": 21
+        },
+        {
+          "rank": 2,
+          "name": "Oooua",
+          "fitness": 0.725,
+          "wins": 68,
+          "draws": 9,
+          "losses": 23
+        },
+        {
+          "rank": 3,
+          "name": "Ooauua",
+          "fitness": 0.695,
+          "wins": 68,
+          "draws": 3,
+          "losses": 29
+        },
+        {
+          "rank": 4,
+          "name": "Oooo",
+          "fitness": 0.69,
+          "wins": 63,
+          "draws": 12,
+          "losses": 25
+        },
+        {
+          "rank": 5,
+          "name": "Oeouooua",
+          "fitness": 0.645,
+          "wins": 61,
+          "draws": 7,
+          "losses": 32
+        },
+        {
+          "rank": 6,
+          "name": "Oui",
+          "fitness": 0.645,
+          "wins": 58,
+          "draws": 13,
+          "losses": 29
+        },
+        {
+          "rank": 7,
+          "name": "Oiooouao",
+          "fitness": 0.64,
+          "wins": 57,
+          "draws": 14,
+          "losses": 29
+        }
+      ]
+    },
+    {
+      "generation": 23,
+      "mutation_std": 0.03428571428571421,
+      "best_fitness": 0.71,
+      "mean_fitness": 0.650625,
+      "best_name": "Oooaua",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Oooaua",
+          "fitness": 0.71,
+          "wins": 65,
+          "draws": 12,
+          "losses": 23
+        },
+        {
+          "rank": 1,
+          "name": "Ooooouo",
+          "fitness": 0.67,
+          "wins": 63,
+          "draws": 8,
+          "losses": 29
+        },
+        {
+          "rank": 2,
+          "name": "Ooooeao",
+          "fitness": 0.665,
+          "wins": 63,
+          "draws": 7,
+          "losses": 30
+        },
+        {
+          "rank": 3,
+          "name": "Aoooououa",
+          "fitness": 0.66,
+          "wins": 60,
+          "draws": 12,
+          "losses": 28
+        },
+        {
+          "rank": 4,
+          "name": "Ooooooo",
+          "fitness": 0.645,
+          "wins": 56,
+          "draws": 17,
+          "losses": 27
+        },
+        {
+          "rank": 5,
+          "name": "Oooiua",
+          "fitness": 0.645,
+          "wins": 57,
+          "draws": 15,
+          "losses": 28
+        },
+        {
+          "rank": 6,
+          "name": "Ooue",
+          "fitness": 0.62,
+          "wins": 55,
+          "draws": 14,
+          "losses": 31
+        },
+        {
+          "rank": 7,
+          "name": "Eoo",
+          "fitness": 0.59,
+          "wins": 52,
+          "draws": 14,
+          "losses": 34
+        }
+      ]
+    },
+    {
+      "generation": 24,
+      "mutation_std": 0.031428571428571354,
+      "best_fitness": 0.66,
+      "mean_fitness": 0.636875,
+      "best_name": "Oooooao",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Oooooao",
+          "fitness": 0.66,
+          "wins": 59,
+          "draws": 14,
+          "losses": 27
+        },
+        {
+          "rank": 1,
+          "name": "Ooe",
+          "fitness": 0.655,
+          "wins": 60,
+          "draws": 11,
+          "losses": 29
+        },
+        {
+          "rank": 2,
+          "name": "Oooaeao",
+          "fitness": 0.645,
+          "wins": 57,
+          "draws": 15,
+          "losses": 28
+        },
+        {
+          "rank": 3,
+          "name": "Oaooe",
+          "fitness": 0.645,
+          "wins": 61,
+          "draws": 7,
+          "losses": 32
+        },
+        {
+          "rank": 4,
+          "name": "Oooaua",
+          "fitness": 0.635,
+          "wins": 60,
+          "draws": 7,
+          "losses": 33
+        },
+        {
+          "rank": 5,
+          "name": "Ooooeae",
+          "fitness": 0.635,
+          "wins": 59,
+          "draws": 9,
+          "losses": 32
+        },
+        {
+          "rank": 6,
+          "name": "Ooooeoeao",
+          "fitness": 0.615,
+          "wins": 56,
+          "draws": 11,
+          "losses": 33
+        },
+        {
+          "rank": 7,
+          "name": "Ooooaao",
+          "fitness": 0.605,
+          "wins": 58,
+          "draws": 5,
+          "losses": 37
+        }
+      ]
+    },
+    {
+      "generation": 25,
+      "mutation_std": 0.028571428571428498,
+      "best_fitness": 0.74,
+      "mean_fitness": 0.6581250000000001,
+      "best_name": "Ooeoe",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ooeoe",
+          "fitness": 0.74,
+          "wins": 72,
+          "draws": 4,
+          "losses": 24
+        },
+        {
+          "rank": 1,
+          "name": "Oooooao",
+          "fitness": 0.675,
+          "wins": 63,
+          "draws": 9,
+          "losses": 28
+        },
+        {
+          "rank": 2,
+          "name": "Oioeo",
+          "fitness": 0.675,
+          "wins": 61,
+          "draws": 13,
+          "losses": 26
+        },
+        {
+          "rank": 3,
+          "name": "Ooaooao",
+          "fitness": 0.675,
+          "wins": 61,
+          "draws": 13,
+          "losses": 26
+        },
+        {
+          "rank": 4,
+          "name": "Oooeo",
+          "fitness": 0.665,
+          "wins": 61,
+          "draws": 11,
+          "losses": 28
+        },
+        {
+          "rank": 5,
+          "name": "Ooooe",
+          "fitness": 0.63,
+          "wins": 57,
+          "draws": 12,
+          "losses": 31
+        },
+        {
+          "rank": 6,
+          "name": "Oioao",
+          "fitness": 0.625,
+          "wins": 59,
+          "draws": 7,
+          "losses": 34
+        },
+        {
+          "rank": 7,
+          "name": "Oie",
+          "fitness": 0.58,
+          "wins": 57,
+          "draws": 2,
+          "losses": 41
+        }
+      ]
+    },
+    {
+      "generation": 26,
+      "mutation_std": 0.02571428571428564,
+      "best_fitness": 0.715,
+      "mean_fitness": 0.65625,
+      "best_name": "Ooeoe",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ooeoe",
+          "fitness": 0.715,
+          "wins": 66,
+          "draws": 11,
+          "losses": 23
+        },
+        {
+          "rank": 1,
+          "name": "Oooieo",
+          "fitness": 0.7,
+          "wins": 67,
+          "draws": 6,
+          "losses": 27
+        },
+        {
+          "rank": 2,
+          "name": "Oieoeoio",
+          "fitness": 0.685,
+          "wins": 65,
+          "draws": 7,
+          "losses": 28
+        },
+        {
+          "rank": 3,
+          "name": "Oiooeo",
+          "fitness": 0.675,
+          "wins": 62,
+          "draws": 11,
+          "losses": 27
+        },
+        {
+          "rank": 4,
+          "name": "Ooa",
+          "fitness": 0.665,
+          "wins": 61,
+          "draws": 11,
+          "losses": 28
+        },
+        {
+          "rank": 5,
+          "name": "Oooooai",
+          "fitness": 0.645,
+          "wins": 59,
+          "draws": 11,
+          "losses": 30
+        },
+        {
+          "rank": 6,
+          "name": "Eiao",
+          "fitness": 0.6,
+          "wins": 56,
+          "draws": 8,
+          "losses": 36
+        },
+        {
+          "rank": 7,
+          "name": "Oooooo",
+          "fitness": 0.565,
+          "wins": 50,
+          "draws": 13,
+          "losses": 37
+        }
+      ]
+    },
+    {
+      "generation": 27,
+      "mutation_std": 0.022857142857142784,
+      "best_fitness": 0.695,
+      "mean_fitness": 0.65625,
+      "best_name": "Oieueoio",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Oieueoio",
+          "fitness": 0.695,
+          "wins": 64,
+          "draws": 11,
+          "losses": 25
+        },
+        {
+          "rank": 1,
+          "name": "Oieoeeo",
+          "fitness": 0.69,
+          "wins": 63,
+          "draws": 12,
+          "losses": 25
+        },
+        {
+          "rank": 2,
+          "name": "Ooeoe",
+          "fitness": 0.675,
+          "wins": 61,
+          "draws": 13,
+          "losses": 26
+        },
+        {
+          "rank": 3,
+          "name": "Ioiieo",
+          "fitness": 0.67,
+          "wins": 62,
+          "draws": 10,
+          "losses": 28
+        },
+        {
+          "rank": 4,
+          "name": "Ouii",
+          "fitness": 0.665,
+          "wins": 59,
+          "draws": 15,
+          "losses": 26
+        },
+        {
+          "rank": 5,
+          "name": "Eoeoio",
+          "fitness": 0.64,
+          "wins": 60,
+          "draws": 8,
+          "losses": 32
+        },
+        {
+          "rank": 6,
+          "name": "Ooeou",
+          "fitness": 0.64,
+          "wins": 60,
+          "draws": 8,
+          "losses": 32
+        },
+        {
+          "rank": 7,
+          "name": "Ooeeueoio",
+          "fitness": 0.575,
+          "wins": 50,
+          "draws": 15,
+          "losses": 35
+        }
+      ]
+    },
+    {
+      "generation": 28,
+      "mutation_std": 0.019999999999999928,
+      "best_fitness": 0.75,
+      "mean_fitness": 0.666875,
+      "best_name": "Oiooeoeeo",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Oiooeoeeo",
+          "fitness": 0.75,
+          "wins": 69,
+          "draws": 12,
+          "losses": 19
+        },
+        {
+          "rank": 1,
+          "name": "Oieoi",
+          "fitness": 0.73,
+          "wins": 67,
+          "draws": 12,
+          "losses": 21
+        },
+        {
+          "rank": 2,
+          "name": "Ooieieoa",
+          "fitness": 0.69,
+          "wins": 65,
+          "draws": 8,
+          "losses": 27
+        },
+        {
+          "rank": 3,
+          "name": "Oiioeeo",
+          "fitness": 0.685,
+          "wins": 64,
+          "draws": 9,
+          "losses": 27
+        },
+        {
+          "rank": 4,
+          "name": "Oieueoio",
+          "fitness": 0.675,
+          "wins": 64,
+          "draws": 7,
+          "losses": 29
+        },
+        {
+          "rank": 5,
+          "name": "Oieoeei",
+          "fitness": 0.625,
+          "wins": 58,
+          "draws": 9,
+          "losses": 33
+        },
+        {
+          "rank": 6,
+          "name": "Ioi",
+          "fitness": 0.62,
+          "wins": 58,
+          "draws": 8,
+          "losses": 34
+        },
+        {
+          "rank": 7,
+          "name": "Iio",
+          "fitness": 0.56,
+          "wins": 51,
+          "draws": 10,
+          "losses": 39
+        }
+      ]
+    },
+    {
+      "generation": 29,
+      "mutation_std": null,
+      "best_fitness": 0.705,
+      "mean_fitness": 0.654375,
+      "best_name": "Iooieieoa",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Iooieieoa",
+          "fitness": 0.705,
+          "wins": 65,
+          "draws": 11,
+          "losses": 24
+        },
+        {
+          "rank": 1,
+          "name": "Oiuo",
+          "fitness": 0.675,
+          "wins": 62,
+          "draws": 11,
+          "losses": 27
+        },
+        {
+          "rank": 2,
+          "name": "Ooieoui",
+          "fitness": 0.67,
+          "wins": 61,
+          "draws": 12,
+          "losses": 27
+        },
+        {
+          "rank": 3,
+          "name": "Oieooiie",
+          "fitness": 0.655,
+          "wins": 60,
+          "draws": 11,
+          "losses": 29
+        },
+        {
+          "rank": 4,
+          "name": "Oiooeoeeo",
+          "fitness": 0.65,
+          "wins": 58,
+          "draws": 14,
+          "losses": 28
+        },
+        {
+          "rank": 5,
+          "name": "Uieoi",
+          "fitness": 0.645,
+          "wins": 60,
+          "draws": 9,
+          "losses": 31
+        },
+        {
+          "rank": 6,
+          "name": "Ooaeii",
+          "fitness": 0.635,
+          "wins": 56,
+          "draws": 15,
+          "losses": 29
+        },
+        {
+          "rank": 7,
+          "name": "Oiei",
+          "fitness": 0.6,
+          "wins": 58,
+          "draws": 4,
+          "losses": 38
+        }
+      ]
+    }
+  ]
+}

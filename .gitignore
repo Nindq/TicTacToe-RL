@@ -1,0 +1,16 @@
+# Virtual environments
+.venv/
+.venv-wsl/
+venv/
+
+#Old
+Old/
+
+#Local Data
+runs/
+Models/
+evaluations/
+
+#pytest
+.pytest_cache
+__pycache__

@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-10-27T22:57:14",
+  "config": {
+    "device": "cuda",
+    "games_per_side": 100,
+    "total_games_per_opponent": 200,
+    "opponent_count": 3,
+    "opponent_seeds": [
+      2000,
+      2001,
+      2002
+    ],
+    "baseline_seed": 9999,
+    "include_baseline": true
+  },
+  "champions": [
+    {
+      "position": 2,
+      "name": "Oiooeoeeo",
+      "generation": 28,
+      "fitness_at_save": 0.75,
+      "checkpoint_path": "Models\\champ_2026_10M_28D__02h_31m_26s_gen_28.pth"
+    }
+  ],
+  "models": [
+    {
+      "display_name": "Champ 2",
+      "is_baseline": false,
+      "position": 2,
+      "per_opponent": [
+        {
+          "opponent_seed": 2000,
+          "wins": 141,
+          "draws": 17,
+          "losses": 42,
+          "fitness": 0.7475
+        },
+        {
+          "opponent_seed": 2001,
+          "wins": 110,
+          "draws": 33,
+          "losses": 57,
+          "fitness": 0.6325
+        },
+        {
+          "opponent_seed": 2002,
+          "wins": 119,
+          "draws": 20,
+          "losses": 61,
+          "fitness": 0.645
+        }
+      ],
+      "aggregate": {
+        "wins": 370,
+        "draws": 70,
+        "losses": 160,
+        "avg_fitness": 0.675
+      },
+      "checkpoint": {
+        "position": 2,
+        "name": "Oiooeoeeo",
+        "generation": 28,
+        "fitness_at_save": 0.75,
+        "checkpoint_path": "Models\\champ_2026_10M_28D__02h_31m_26s_gen_28.pth"
+      }
+    },
+    {
+      "display_name": "Baseline",
+      "is_baseline": true,
+      "position": null,
+      "per_opponent": [
+        {
+          "opponent_seed": 2000,
+          "wins": 86,
+          "draws": 25,
+          "losses": 89,
+          "fitness": 0.4925
+        },
+        {
+          "opponent_seed": 2001,
+          "wins": 83,
+          "draws": 36,
+          "losses": 81,
+          "fitness": 0.505
+        },
+        {
+          "opponent_seed": 2002,
+          "wins": 73,
+          "draws": 36,
+          "losses": 91,
+          "fitness": 0.455
+        }
+      ],
+      "aggregate": {
+        "wins": 242,
+        "draws": 97,
+        "losses": 261,
+        "avg_fitness": 0.4842
+      }
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "name": "Champ 2",
+      "position": 2,
+      "avg_fitness": 0.675
+    },
+    {
+      "rank": 2,
+      "name": "Baseline",
+      "position": null,
+      "avg_fitness": 0.4842
+    }
+  ],
+  "current_validation_leader": "Champ 2",
+  "best_position": 2,
+  "best_is_baseline": false
+}

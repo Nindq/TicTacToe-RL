@@ -7,6 +7,7 @@ import json
 import os
 import random
 import matplotlib.pyplot as plt
+from pathlib import Path
 from datetime import datetime, timezone
 
 class Population():
@@ -240,6 +241,10 @@ class Population():
         pth_filename = f"{base_filename}.pth"
         json_filename = f"{base_filename}.json"
         
+        if Path(pth_filename).is_file() or Path(json_filename).is_file():
+            print(f"❌ FAILURE: Model {base_filename} already Exists.")
+            return
+                    
         config = {
             "seed": self.seed,
             "population_size": self.size,
@@ -304,7 +309,8 @@ class Population():
                 with open(leaderboard_path, "r") as f:
                     all_champs = json.load(f)
             except Exception as e:
-                print(f"⚠️ Warning: Could not read existing leaderboard file [{leaderboard_path}]. Starting fresh. Error: {e}")
+                print(f"⚠️ Warning: Could not read existing leaderboard file [{leaderboard_path} -> Checkpoint not added to Leaderboard.\nError: {e}")
+                return
                 
         # Update ranking in memory
         new_entry = {

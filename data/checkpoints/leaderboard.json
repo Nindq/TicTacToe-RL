@@ -1,0 +1,23 @@
+[
+  {
+    "filename": "champ_2026_10M_28D__02h_31m_26s_gen_16.pth",
+    "generation": 16,
+    "run_id": "2026_10M_28D__02h_31m_26s",
+    "fitness": 0.8,
+    "name": "Ouou"
+  },
+  {
+    "filename": "champ_2026_10M_28D__02h_31m_26s_gen_28.pth",
+    "generation": 28,
+    "run_id": "2026_10M_28D__02h_31m_26s",
+    "fitness": 0.75,
+    "name": "Oiooeoeeo"
+  },
+  {
+    "filename": "champ_2026_10M_28D__02h_23m_02s_gen_13.pth",
+    "generation": 13,
+    "run_id": "2026_10M_28D__02h_23m_02s",
+    "fitness": 0.74,
+    "name": "Iiiizo"
+  }
+]

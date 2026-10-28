@@ -61,9 +61,9 @@ def save_json(evaluation, game_count, device, seed, mutation_strength=0.1):
         
     print(f"📁 Evaluation successfully saved to: {file_path}")
 
-def get_champ(position):
+def get_champ(position, leaderboard_dir="Models"):
     """Loads a champion by its current global leaderboard rank (1 = best overall)."""
-    leaderboard_path = os.path.join("Models", "leaderboard.json")
+    leaderboard_path = os.path.join(leaderboard_dir, "leaderboard.json")
     
     if not os.path.exists(leaderboard_path):
         raise FileNotFoundError(f"❌ FAILURE: Leaderboard file not found at [{leaderboard_path}]. Run training first.")
@@ -76,7 +76,7 @@ def get_champ(position):
         raise IndexError(f"❌ FAILURE: Requested rank #{position}, but leaderboard only has {len(leaderboard)} entries.")
         
     champ_meta = leaderboard[index]
-    pth_path = os.path.join("Models", champ_meta["filename"])
+    pth_path = os.path.join(leaderboard_dir, champ_meta["filename"])
     
     if not os.path.exists(pth_path):
         raise FileNotFoundError(f"❌ FAILURE: Checkpoint file referenced in leaderboard was missing at [{pth_path}].")
@@ -170,6 +170,7 @@ def evaluate_and_save_comparison(
     shouldPrint=False,
     PrintInterval=25,
     seed=1000,
+    leaderboard_dir="Models",
     save_path="evaluations/champion_comparison.json"
 ):
     """
@@ -185,7 +186,7 @@ def evaluate_and_save_comparison(
     champs = []
     champ_info = []
     for pos in positions:
-        path = get_champ(pos)
+        path = get_champ(pos, leaderboard_dir)
         checkpoint = torch.load(path, map_location=device)
         model = TicTacToeAgent.TicTacToeAI().to(device)
         model.load_state_dict(checkpoint["model_state_dict"])
@@ -370,7 +371,8 @@ results1 = evaluate_and_save_comparison(
         opp_count=3,
         game_count=100,
         include_baseline=True,
-        save_path="evaluations/comparison_2026-10-27_1.json"   # or whatever you like
+        leaderboard_dir="data/checkpoints",
+        save_path="data/comparisons/comparison_2026-10-27_1_test.json"   # or whatever you like
 )
 
 results2 = evaluate_and_save_comparison(
@@ -380,7 +382,8 @@ results2 = evaluate_and_save_comparison(
         game_count=100,
         include_baseline=True,
         seed=2000,
-        save_path="evaluations/comparison_2026-10-27_2.json"   # or whatever you like
+        leaderboard_dir="data/checkpoints",
+        save_path="data/comparisons/comparison_2026-10-27_2_test.json"   # or whatever you like
 )
 
 print(f"Took {time.perf_counter() - start}s to finish")

@@ -68,33 +68,62 @@ The final training batch used population 8, parent count 2, elite count 1, tourn
 
 ## Run the project
 
-Run commands from the repository root. My development environment uses **Python 3.13.3**, **PyTorch 2.14.1**, and **Matplotlib 3.11.2**. The agent selects CUDA when available and otherwise uses CPU. The test suite has passed on CPU.
+Run commands from the repository root. The original development environment used **Python 3.13.3**, **PyTorch 2.14.1**, and **Matplotlib 3.11.2**. The agent selects CUDA when available and otherwise uses CPU. The GitHub Actions test job has also passed on Ubuntu with **Python 3.14.9** and CPU PyTorch.
 
 1. Clone the repository and open its root directory.
 2. Create a virtual environment with `python -m venv .venv`.
 3. Activate it with `.\.venv\Scripts\Activate.ps1` in Windows PowerShell, or `source .venv/bin/activate` on Linux/macOS.
-4. Install the recorded dependencies with `python -m pip install -r requirements.txt`.
+4. For a CPU-only setup, first install PyTorch with `python -m pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu`. For GPU use, choose the appropriate build from the [PyTorch installation selector](https://pytorch.org/get-started/locally/) instead.
+5. Install the recorded dependencies with `python -m pip install -r requirements.txt`.
 
-`requirements.txt` currently reflects my development environment and includes extra packages. A minimal dependency list and clean-install verification are still being worked on.
+`requirements.txt` still includes extra development packages. Dependency cleanup is ongoing; the successful CI run verifies the dependency installation and tests configured for that run.
+
+### Command-line interface
+
+Run `python main.py --help` to see the available options. Choose `train` or `evaluate` as the command; running the script without a command shows an argument error. Importing `main.py` no longer starts training or comparisons.
+
+| Option | Applies to | Default / meaning |
+| --- | --- | --- |
+| `--seed`, `-s` | Both | Training: no fixed seed if omitted. Evaluation: opponent seeds start at 1000. See the training seed note below. |
+| `--generations`, `--gen` | Train | 6 evaluated generations per run |
+| `--population`, `-p`, `--pop` | Train | 8 candidates |
+| `--games` | Both | 20 games per candidate in training; 20 games per side against each opponent in evaluation |
+| `--runs`, `-r` | Train | 5 training runs |
+| `--checkpoint`, `-c` | Evaluate | `data/checkpoints`, containing both `leaderboard.json` and the referenced weights |
+| `--positions`, `--pos` | Evaluate | One or more 1-based index positions, separated by spaces; defaults to `1 2 3` when neither selection option is supplied |
+| `--top` | Evaluate | Evaluate the first N entries in that checkpoint index; mutually exclusive with `--positions` |
+| `--opponents` | Evaluate | 3 frozen, untrained opponents |
+| `--output` | Evaluate | `data/comparisons/comparison_2026-11-04_test.json` |
 
 ### Evaluate the supplied checkpoints
 
-Run `python main.py`.
+For a quick comparison of the three supplied candidates and the untrained baseline, run `python main.py evaluate`. The defaults request 120 games per model: 3 opponents × 20 games per side × 2 sides.
 
-The current entry point loads the three checkpoint entries in [the committed index](data/checkpoints/leaderboard.json), compares them on the validation pool, and evaluates the selected model on the final pool. It writes new reports named `comparison_2026-10-27_1_test.json` and `comparison_2026-10-27_2_test.json` under `data/comparisons`. The original reports linked above preserve the recorded experiment results.
+Use `--positions 1 3` to choose specific candidates, or `--top 2` to choose the first two entries. These positions refer to [the committed checkpoint index](data/checkpoints/leaderboard.json), not a new ranking against the evaluation opponents. Position **2** is the selected generation-28 champion.
 
-The reusable comparison helper accepts `leaderboard_dir`, so it can use the shipped `data/checkpoints` folder or a locally generated `Models` folder. Historical result JSONs retain their original `Models` paths; the index identifies the matching committed copies by filename.
+To use the original validation opponent pool and game budget, run `python main.py evaluate --positions 1 2 3 --seed 1000 --opponents 3 --games 100 --output data/comparisons/validation_cli.json`.
+
+To evaluate the already selected generation-28 checkpoint on the separate final pool, run `python main.py evaluate --positions 2 --seed 2000 --opponents 3 --games 100 --output data/comparisons/final_cli.json`.
+
+Each of those commands requests 600 games per model. Evaluation includes the untrained baseline initialized with seed 9999, and it does not train or modify the checkpoint weights. These are fresh measurements; exact sampled outcomes can differ across devices and environments. The original reports linked above preserve the published results, and the example commands use separate output filenames. Reusing an output filename replaces that report.
+
+To evaluate locally trained models, point `--checkpoint` at their directory, for example `Models`. That directory must contain `leaderboard.json` and the checkpoint files it references. Historical result JSONs retain their original `Models` paths; the committed index identifies the shipped copies by filename.
 
 ### Tests and graph
 
 - Run the tests with `python -m pytest tests -q`. The current suite has **37 tests**, covering game rules, evaluator accounting, masking, genetic operators, the mutation schedule, and checkpoint saving.
+- GitHub Actions runs dependency installation and pytest on pushes to `main` and pull requests targeting `main`. The configured test job has passed; evaluation and graph generation are separate commands.
 - Recreate the included training graph with `python graphing.py`. It reads the saved seed-12 history, saves a PNG under `data/graphs`, and displays it. It does not need another training run.
 
 ### Try a training run
 
-Training configuration lives in the `train` helper in [main.py](main.py). Adjust its seeds, population, generation count, and game budget, then select that helper as the script's entry point instead of the two comparison calls. The current default entry point evaluates saved models.
+Start small with `python main.py train --seed 12 --generations 2 --population 8 --games 4 --runs 1`. This requests one short run. Training also displays fitness plots for the final two runs, or the single run when only one is requested.
 
-Training writes raw histories to `runs` and checkpoints plus a leaderboard to `Models`. Those local output directories are ignored by Git. The existing ten-run configuration requests 240,000 training games, so start with a smaller budget while checking changes.
+Training writes raw histories to `runs` and checkpoints plus a leaderboard to `Models`. Those local output directories are ignored by Git. With no training options, `python main.py train` requests 5 runs × 6 generations × 8 candidates × 20 games = **4,800 training games**.
+
+**Current training seed behavior:** the helper increments a positive seed before each run, so the example's `--seed 12` starts at seed **13**. Seed 0 is currently reused across runs; omitting the seed leaves the runs unseeded. This behavior still needs cleanup. The run records store the actual seed used. The three historical training seeds reported above come from those records.
+
+Parent count 2, elite count 1, tournament size 3, crossover inheritance 0.5, and the mutation schedule remain configured inside the `train` helper in [main.py](main.py).
 
 ## Experiments and lessons learned
 
@@ -117,7 +146,7 @@ I also learned why a high training score is not enough to choose a checkpoint, w
 - Training uses one fixed untrained opponent per run. A broader training-opponent pool could be a useful experiment.
 - Validation and final testing each use three untrained neural opponents and one seeded baseline. This is a limited benchmark of playing strength.
 - Crossover parent sampling permits the same model twice; distinct parents are not enforced.
-- The scripts still use configuration inside Python files. A simpler command-line interface, import-safe entry points, and CPU CI are future setup improvements.
+- The CLI exposes the main training and evaluation settings. Genetic-operator settings remain inside the training helper, and training seed progression still needs cleanup.
 
 Next, I would like to try stronger opponents, behavioral diversity and immigration, REINFORCE fine-tuning, and a small human-versus-AI interface. Eventually I want to apply what I learned to my own Tic-Tac-Toe variant.
 

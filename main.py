@@ -1,11 +1,11 @@
 import torch
 import TicTacToeAgent
 import Evaluator
-import GeneticOps
 import Population
 import json
 import os
 import time
+import argparse
 from datetime import datetime
 from pathlib import Path
 
@@ -339,53 +339,72 @@ def load_champs(positions, device):
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-def train():
-    seed = 10 #Version 1.0
+def train(seed, generations, game_count, population, epochs):
 
     mutation_std = 0.1
 
-    game_count = 100
-
-    epochs = 10
-
     for i in range(epochs):
-        Pop = Population.Population(size=8,
+        if seed: seed += 1
+        Pop = Population.Population(size=population,
                                 parent_count=2, 
                                 elite_count=1, 
                                 device=device, 
-                                seed=seed + i,
+                                seed=seed,
                                 mutation_std=mutation_std, 
                                 game_count=game_count)
         
-        Pop.run(generations=30, game_count=game_count, tournament=True, 
+        Pop.run(generations=generations, game_count=game_count, tournament=True, 
                 tourneySize=3, annealing=True, starting_std=0.1,
                 crossover=True ,inheritance=.5, printGen=False,
                 saveChampion=True)
         if i == epochs - 1 or i == epochs - 2: Pop.plot_fitness()
 
-start = time.perf_counter()
-
-results1 = evaluate_and_save_comparison(
-        positions=[1, 2, 3],
-        device=device,
-        opp_count=3,
-        game_count=100,
-        include_baseline=True,
-        leaderboard_dir="data/checkpoints",
-        save_path="data/comparisons/comparison_2026-10-27_1_test.json"   # or whatever you like
-)
-
-results2 = evaluate_and_save_comparison(
-        positions=[results1["best_position"]],
-        device=device,
-        opp_count=3,
-        game_count=100,
-        include_baseline=True,
-        seed=2000,
-        leaderboard_dir="data/checkpoints",
-        save_path="data/comparisons/comparison_2026-10-27_2_test.json"   # or whatever you like
-)
-
-print(f"Took {time.perf_counter() - start}s to finish")
-
-
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("function", help="Select Which function you want to run",
+                        choices=["train", "evaluate"])
+    
+    # Train Arguments
+    parser.add_argument("--seed", "-s", help="Select the set seed or opponent seed for evaluate", type=int)
+    parser.add_argument("--generations", "--gen", help="Select the amount of generations",
+                        type=int, default=6)
+    parser.add_argument("--population", "-p", "--pop", help="Set the Population Size", type=int, default=8)
+    parser.add_argument("--games", help="Select the Games ran per candidates", type=int, default=20)
+    parser.add_argument("--runs", "-r", help="Select the number of runs", type=int, default=5)
+    
+    # Evaluate Arguments
+    parser.add_argument("--checkpoint", "-c", help="Set the checkpoint directory")
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--positions", "--pos", help="Set the positions to be evaluated, Ex. 1 2 3",
+                        nargs="+", type=int)
+    group.add_argument("--top", help="Set the top positions to be evaluated", type=int)
+    parser.add_argument("--output", help="Set the output filename")
+    parser.add_argument("--opponents", help="Set the amount of Opponents for evaluation", type=int, default=3)
+    
+    args = parser.parse_args()
+    
+    if args.function == "train":
+        if args.games < 1: parser.error("Amount of Games must be more than 0.")
+        train(
+            seed=args.seed,
+            generations=args.generations,
+            game_count=args.games,
+            population=args.population,
+            epochs=args.runs
+        )
+    elif args.function == "evaluate":
+        top = None
+        if args.top: top = [i+1 for i in range(args.top)]
+        if args.seed == None: args.seed = 1000
+        
+        evaluate_and_save_comparison(
+            positions=top or args.positions or [1,2,3],
+            device=device,
+            opp_count=args.opponents,
+            game_count=args.games,
+            include_baseline=True,
+            seed=args.seed,
+            leaderboard_dir=args.checkpoint or "data/checkpoints",
+            save_path=args.output or "data/comparisons/comparison_2026-11-04_test.json"
+        )
+    

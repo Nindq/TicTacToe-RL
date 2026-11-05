@@ -1,0 +1,376 @@
+{
+  "config": {
+    "seed": 1,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "mutation_std": 0.1,
+    "games_per_candidate": 20,
+    "selection_mode": "truncation",
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.4625,
+      "best_name": "Ral",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ral",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Jjj",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Nurex",
+          "fitness": 0.55,
+          "wins": 11,
+          "draws": 0,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Xiiio",
+          "fitness": 0.525,
+          "wins": 8,
+          "draws": 5,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Uco",
+          "fitness": 0.45,
+          "wins": 9,
+          "draws": 0,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Udot",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Sawfi",
+          "fitness": 0.35,
+          "wins": 5,
+          "draws": 4,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Ruswe",
+          "fitness": 0.25,
+          "wins": 3,
+          "draws": 4,
+          "losses": 13
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "best_fitness": 0.65,
+      "mean_fitness": 0.5125,
+      "best_name": "Rol",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Rol",
+          "fitness": 0.65,
+          "wins": 12,
+          "draws": 2,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Vjj",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Ralu",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Ral",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Ralo",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Xal",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Rol",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Rol",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "best_fitness": 0.575,
+      "mean_fitness": 0.5,
+      "best_name": "Roj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Roj",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Vwj",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Rok",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Rolu",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Rol",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Vjs",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Rul",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Ron",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "best_fitness": 0.65,
+      "mean_fitness": 0.490625,
+      "best_name": "Roju",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Roju",
+          "fitness": 0.65,
+          "wins": 12,
+          "draws": 2,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Ror",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 2,
+          "name": "Roj",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Vpj",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 4,
+          "name": "Vvj",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Vyj",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Ror",
+          "fitness": 0.35,
+          "wins": 6,
+          "draws": 2,
+          "losses": 12
+        },
+        {
+          "rank": 7,
+          "name": "Vwb",
+          "fitness": 0.35,
+          "wins": 5,
+          "draws": 4,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.559375,
+      "best_name": "Rur",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Rur",
+          "fitness": 0.7,
+          "wins": 13,
+          "draws": 2,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Rur",
+          "fitness": 0.7,
+          "wins": 14,
+          "draws": 0,
+          "losses": 6
+        },
+        {
+          "rank": 2,
+          "name": "Raju",
+          "fitness": 0.65,
+          "wins": 10,
+          "draws": 6,
+          "losses": 4
+        },
+        {
+          "rank": 3,
+          "name": "Roju",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Rur",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Ruju",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Rojux",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 7,
+          "name": "Ruju",
+          "fitness": 0.35,
+          "wins": 6,
+          "draws": 2,
+          "losses": 12
+        }
+      ]
+    }
+  ]
+}

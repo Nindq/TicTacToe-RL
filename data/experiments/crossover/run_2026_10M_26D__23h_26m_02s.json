@@ -1,0 +1,460 @@
+{
+  "config": {
+    "seed": 1,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "crossover": false,
+    "Inheritance_Probability": null,
+    "mutation_std": 0.1,
+    "annealing": true,
+    "starting_std": 0.1,
+    "ending_std": 0.02,
+    "games_per_candidate": 20,
+    "selection_mode": "tournament",
+    "tournament_size": 3,
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "mutation_std": 0.1,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.4625,
+      "best_name": "Ral",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ral",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Jjj",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Nurex",
+          "fitness": 0.55,
+          "wins": 11,
+          "draws": 0,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Xiiio",
+          "fitness": 0.525,
+          "wins": 8,
+          "draws": 5,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Uco",
+          "fitness": 0.45,
+          "wins": 9,
+          "draws": 0,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Udot",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Sawfi",
+          "fitness": 0.35,
+          "wins": 5,
+          "draws": 4,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Ruswe",
+          "fitness": 0.25,
+          "wins": 3,
+          "draws": 4,
+          "losses": 13
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "mutation_std": 0.08,
+      "best_fitness": 0.575,
+      "mean_fitness": 0.503125,
+      "best_name": "Jmj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Jmj",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Jpj",
+          "fitness": 0.575,
+          "wins": 11,
+          "draws": 1,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Ral",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Jjk",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Vurex",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Xjj",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Nerex",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 7,
+          "name": "Jjju",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "mutation_std": 0.06,
+      "best_fitness": 0.575,
+      "mean_fitness": 0.4625,
+      "best_name": "Vuwex",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Vuwex",
+          "fitness": 0.575,
+          "wins": 11,
+          "draws": 1,
+          "losses": 8
+        },
+        {
+          "rank": 1,
+          "name": "Rol",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 2,
+          "name": "Vurox",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Rul",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Vure",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Rah",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Rel",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Jmj",
+          "fitness": 0.35,
+          "wins": 6,
+          "draws": 2,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "mutation_std": 0.039999999999999994,
+      "best_fitness": 0.675,
+      "mean_fitness": 0.515625,
+      "best_name": "Verox",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Verox",
+          "fitness": 0.675,
+          "wins": 12,
+          "draws": 3,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Vewex",
+          "fitness": 0.6,
+          "wins": 10,
+          "draws": 4,
+          "losses": 6
+        },
+        {
+          "rank": 2,
+          "name": "Vuyex",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Vuwexu",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Vuroq",
+          "fitness": 0.5,
+          "wins": 10,
+          "draws": 0,
+          "losses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Vuweb",
+          "fitness": 0.45,
+          "wins": 9,
+          "draws": 0,
+          "losses": 11
+        },
+        {
+          "rank": 6,
+          "name": "Vuzex",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Vuwex",
+          "fitness": 0.4,
+          "wins": 6,
+          "draws": 4,
+          "losses": 10
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "mutation_std": 0.019999999999999993,
+      "best_fitness": 0.65,
+      "mean_fitness": 0.478125,
+      "best_name": "Vuzeb",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Vuzeb",
+          "fitness": 0.65,
+          "wins": 12,
+          "draws": 2,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Verox",
+          "fitness": 0.625,
+          "wins": 10,
+          "draws": 5,
+          "losses": 5
+        },
+        {
+          "rank": 2,
+          "name": "Vuwelu",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Vurexu",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Vuwetu",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Vuxexu",
+          "fitness": 0.4,
+          "wins": 6,
+          "draws": 4,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Vuwexux",
+          "fitness": 0.375,
+          "wins": 5,
+          "draws": 5,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Vuzexa",
+          "fitness": 0.375,
+          "wins": 6,
+          "draws": 3,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 5,
+      "mutation_std": null,
+      "best_fitness": 0.575,
+      "mean_fitness": 0.48125,
+      "best_name": "Vumeb",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Vumeb",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Vuruxu",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Vuzeba",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Vufexu",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Vuzeb",
+          "fitness": 0.45,
+          "wins": 9,
+          "draws": 0,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Vuveb",
+          "fitness": 0.45,
+          "wins": 6,
+          "draws": 6,
+          "losses": 8
+        },
+        {
+          "rank": 6,
+          "name": "Vurexuj",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Murexu",
+          "fitness": 0.35,
+          "wins": 5,
+          "draws": 4,
+          "losses": 11
+        }
+      ]
+    }
+  ]
+}

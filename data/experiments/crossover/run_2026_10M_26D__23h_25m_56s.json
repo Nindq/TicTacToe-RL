@@ -1,0 +1,460 @@
+{
+  "config": {
+    "seed": 1,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "crossover": true,
+    "Inheritance_Probability": 0.5,
+    "mutation_std": 0.1,
+    "annealing": true,
+    "starting_std": 0.1,
+    "ending_std": 0.02,
+    "games_per_candidate": 20,
+    "selection_mode": "tournament",
+    "tournament_size": 3,
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "mutation_std": 0.1,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.4625,
+      "best_name": "Ral",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ral",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Jjj",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Nurex",
+          "fitness": 0.55,
+          "wins": 11,
+          "draws": 0,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Xiiio",
+          "fitness": 0.525,
+          "wins": 8,
+          "draws": 5,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Uco",
+          "fitness": 0.45,
+          "wins": 9,
+          "draws": 0,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Udot",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Sawfi",
+          "fitness": 0.35,
+          "wins": 5,
+          "draws": 4,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Ruswe",
+          "fitness": 0.25,
+          "wins": 3,
+          "draws": 4,
+          "losses": 13
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "mutation_std": 0.08,
+      "best_fitness": 0.675,
+      "mean_fitness": 0.5281250000000001,
+      "best_name": "Nnuraxurex",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Nnuraxurex",
+          "fitness": 0.675,
+          "wins": 13,
+          "draws": 1,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Nurix",
+          "fitness": 0.625,
+          "wins": 12,
+          "draws": 1,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Nurenurex",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Jjnujrax",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Jjrex",
+          "fitness": 0.5,
+          "wins": 10,
+          "draws": 0,
+          "losses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Nurjjajx",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Vjrex",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Ral",
+          "fitness": 0.4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "mutation_std": 0.06,
+      "best_fitness": 0.525,
+      "mean_fitness": 0.403125,
+      "best_name": "Nnerarix",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Nnerarix",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 1,
+          "name": "Nnuraex",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 2,
+          "name": "Hunnuraxurex",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Nuux",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 4,
+          "name": "Nnbnururaaxurxurexex",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        },
+        {
+          "rank": 5,
+          "name": "Nurib",
+          "fitness": 0.35,
+          "wins": 6,
+          "draws": 2,
+          "losses": 12
+        },
+        {
+          "rank": 6,
+          "name": "Nnuraxurex",
+          "fitness": 0.275,
+          "wins": 5,
+          "draws": 1,
+          "losses": 14
+        },
+        {
+          "rank": 7,
+          "name": "Nnnuraixurrexix",
+          "fitness": 0.275,
+          "wins": 5,
+          "draws": 1,
+          "losses": 14
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "mutation_std": 0.039999999999999994,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.503125,
+      "best_name": "Nureb",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Nureb",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Nuub",
+          "fitness": 0.575,
+          "wins": 11,
+          "draws": 1,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Nnerarix",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Nuuy",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Xunurriibb",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Nounuxrib",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Nuriuux",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Nuuy",
+          "fitness": 0.4,
+          "wins": 6,
+          "draws": 4,
+          "losses": 10
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "mutation_std": 0.019999999999999993,
+      "best_fitness": 0.775,
+      "mean_fitness": 0.596875,
+      "best_name": "Nnerarip",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Nnerarip",
+          "fitness": 0.775,
+          "wins": 15,
+          "draws": 1,
+          "losses": 4
+        },
+        {
+          "rank": 1,
+          "name": "Nperarix",
+          "fitness": 0.65,
+          "wins": 10,
+          "draws": 6,
+          "losses": 4
+        },
+        {
+          "rank": 2,
+          "name": "Nnoruy",
+          "fitness": 0.65,
+          "wins": 12,
+          "draws": 2,
+          "losses": 6
+        },
+        {
+          "rank": 3,
+          "name": "Nureb",
+          "fitness": 0.625,
+          "wins": 9,
+          "draws": 7,
+          "losses": 4
+        },
+        {
+          "rank": 4,
+          "name": "Nnuuj",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 5,
+          "name": "Nnernuuy",
+          "fitness": 0.575,
+          "wins": 11,
+          "draws": 1,
+          "losses": 8
+        },
+        {
+          "rank": 6,
+          "name": "Nnerarierurix",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 7,
+          "name": "Muuy",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 5,
+      "mutation_std": null,
+      "best_fitness": 0.65,
+      "mean_fitness": 0.496875,
+      "best_name": "Nnerarip",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Nnerarip",
+          "fitness": 0.65,
+          "wins": 12,
+          "draws": 2,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Nperix",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Nponperararixrix",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Nperarrix",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Nnpeperararviixx",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Npirarix",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Nperarin",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Nnperarix",
+          "fitness": 0.35,
+          "wins": 7,
+          "draws": 0,
+          "losses": 13
+        }
+      ]
+    }
+  ]
+}

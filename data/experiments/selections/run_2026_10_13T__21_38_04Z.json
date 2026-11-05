@@ -1,0 +1,376 @@
+{
+  "config": {
+    "seed": 3,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "mutation_std": 0.1,
+    "games_per_candidate": 20,
+    "selection_mode": "tournament",
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "best_fitness": 0.65,
+      "mean_fitness": 0.5375,
+      "best_name": "Xib",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Xib",
+          "fitness": 0.65,
+          "wins": 13,
+          "draws": 0,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Giri",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 2,
+          "name": "Vux",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 3,
+          "name": "Xitdo",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Zzqdd",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Xef",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Utwe",
+          "fitness": 0.425,
+          "wins": 6,
+          "draws": 5,
+          "losses": 9
+        },
+        {
+          "rank": 7,
+          "name": "Miqo",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.4875,
+      "best_name": "Giriy",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Giriy",
+          "fitness": 0.7,
+          "wins": 13,
+          "draws": 2,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Xub",
+          "fitness": 0.65,
+          "wins": 12,
+          "draws": 2,
+          "losses": 6
+        },
+        {
+          "rank": 2,
+          "name": "Xib",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Gibi",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Giru",
+          "fitness": 0.425,
+          "wins": 6,
+          "draws": 5,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Niri",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        },
+        {
+          "rank": 6,
+          "name": "Giriw",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        },
+        {
+          "rank": 7,
+          "name": "Xeb",
+          "fitness": 0.325,
+          "wins": 6,
+          "draws": 1,
+          "losses": 13
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.471875,
+      "best_name": "Gisiy",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Gisiy",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Nira",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Girey",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Giray",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Nimi",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Giriy",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Giriq",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Giruy",
+          "fitness": 0.325,
+          "wins": 4,
+          "draws": 5,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.55625,
+      "best_name": "Gibiy",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Gibiy",
+          "fitness": 0.7,
+          "wins": 13,
+          "draws": 2,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Gisiy",
+          "fitness": 0.625,
+          "wins": 12,
+          "draws": 1,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Zisiy",
+          "fitness": 0.6,
+          "wins": 10,
+          "draws": 4,
+          "losses": 6
+        },
+        {
+          "rank": 3,
+          "name": "Gisoy",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Giwiy",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Gisix",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 6,
+          "name": "Gisiw",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 7,
+          "name": "Giriy",
+          "fitness": 0.375,
+          "wins": 6,
+          "draws": 3,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "best_fitness": 0.725,
+      "mean_fitness": 0.525,
+      "best_name": "Zisay",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Zisay",
+          "fitness": 0.725,
+          "wins": 13,
+          "draws": 3,
+          "losses": 4
+        },
+        {
+          "rank": 1,
+          "name": "Gibiy",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Zisik",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Zibiy",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Zisiyu",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Zibiy",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Zisiyu",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Zisey",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        }
+      ]
+    }
+  ]
+}

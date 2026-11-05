@@ -1,0 +1,376 @@
+{
+  "config": {
+    "seed": 4,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "mutation_std": 0.1,
+    "games_per_candidate": 20,
+    "selection_mode": "tournament",
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.5125,
+      "best_name": "Mcuh",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Mcuh",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Iiqe",
+          "fitness": 0.6,
+          "wins": 12,
+          "draws": 0,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Lalee",
+          "fitness": 0.525,
+          "wins": 8,
+          "draws": 5,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Icci",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Mmggg",
+          "fitness": 0.475,
+          "wins": 7,
+          "draws": 5,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Jyoo",
+          "fitness": 0.475,
+          "wins": 7,
+          "draws": 5,
+          "losses": 8
+        },
+        {
+          "rank": 6,
+          "name": "Wnnd",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Tubxi",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "best_fitness": 0.55,
+      "mean_fitness": 0.475,
+      "best_name": "Mcoh",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Mcoh",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 1,
+          "name": "Mwuh",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 2,
+          "name": "Mcu",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Mvuh",
+          "fitness": 0.5,
+          "wins": 10,
+          "draws": 0,
+          "losses": 10
+        },
+        {
+          "rank": 4,
+          "name": "Mcih",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Mcuh",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        },
+        {
+          "rank": 6,
+          "name": "Mcu",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Mcih",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "best_fitness": 0.725,
+      "mean_fitness": 0.49374999999999997,
+      "best_name": "Mcon",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Mcon",
+          "fitness": 0.725,
+          "wins": 14,
+          "draws": 1,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Mceh",
+          "fitness": 0.6,
+          "wins": 9,
+          "draws": 6,
+          "losses": 5
+        },
+        {
+          "rank": 2,
+          "name": "Mcuc",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Mceh",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Mku",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Mcoh",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Mmu",
+          "fitness": 0.375,
+          "wins": 6,
+          "draws": 3,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Mco",
+          "fitness": 0.225,
+          "wins": 3,
+          "draws": 3,
+          "losses": 14
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.515625,
+      "best_name": "Mcehe",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Mcehe",
+          "fitness": 0.6,
+          "wins": 12,
+          "draws": 0,
+          "losses": 8
+        },
+        {
+          "rank": 1,
+          "name": "Mmeh",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Mcih",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Mcah",
+          "fitness": 0.55,
+          "wins": 11,
+          "draws": 0,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Mcon",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Mce",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Mce",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Mced",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "best_fitness": 0.525,
+      "mean_fitness": 0.41875,
+      "best_name": "Ccih",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ccih",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 1,
+          "name": "Mcij",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 2,
+          "name": "Mcehe",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 3,
+          "name": "Mca",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 4,
+          "name": "Mca",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Mcahe",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 6,
+          "name": "Mcihu",
+          "fitness": 0.375,
+          "wins": 6,
+          "draws": 3,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Mqih",
+          "fitness": 0.325,
+          "wins": 6,
+          "draws": 1,
+          "losses": 13
+        }
+      ]
+    }
+  ]
+}

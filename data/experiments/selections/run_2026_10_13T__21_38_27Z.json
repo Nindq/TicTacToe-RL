@@ -1,0 +1,376 @@
+{
+  "config": {
+    "seed": 5,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "mutation_std": 0.1,
+    "games_per_candidate": 20,
+    "selection_mode": "tournament",
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "best_fitness": 0.725,
+      "mean_fitness": 0.509375,
+      "best_name": "Hhka",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Hhka",
+          "fitness": 0.725,
+          "wins": 13,
+          "draws": 3,
+          "losses": 4
+        },
+        {
+          "rank": 1,
+          "name": "Ayyi",
+          "fitness": 0.6,
+          "wins": 12,
+          "draws": 0,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Izbe",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Eea",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Boqqe",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Eqig",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Minoc",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Jemje",
+          "fitness": 0.325,
+          "wins": 5,
+          "draws": 3,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.490625,
+      "best_name": "Hhka",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Hhka",
+          "fitness": 0.7,
+          "wins": 13,
+          "draws": 2,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Eqix",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Boqq",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Iqig",
+          "fitness": 0.5,
+          "wins": 10,
+          "draws": 0,
+          "losses": 10
+        },
+        {
+          "rank": 4,
+          "name": "Boqqeh",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Baqqe",
+          "fitness": 0.4,
+          "wins": 6,
+          "draws": 4,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Ebig",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Qoqqe",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.475,
+      "best_name": "Eqi",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Eqi",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Hhk",
+          "fitness": 0.625,
+          "wins": 10,
+          "draws": 5,
+          "losses": 5
+        },
+        {
+          "rank": 2,
+          "name": "Ehix",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Eqiy",
+          "fitness": 0.5,
+          "wins": 7,
+          "draws": 6,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Hhka",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Hhkab",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        },
+        {
+          "rank": 6,
+          "name": "Eqixo",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        },
+        {
+          "rank": 7,
+          "name": "Hhda",
+          "fitness": 0.35,
+          "wins": 5,
+          "draws": 4,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "best_fitness": 0.675,
+      "mean_fitness": 0.596875,
+      "best_name": "Hwk",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Hwk",
+          "fitness": 0.675,
+          "wins": 12,
+          "draws": 3,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Hhs",
+          "fitness": 0.65,
+          "wins": 11,
+          "draws": 4,
+          "losses": 5
+        },
+        {
+          "rank": 2,
+          "name": "Hhku",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 3,
+          "name": "Hhy",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 4,
+          "name": "Hhx",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 5,
+          "name": "Eqi",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 6,
+          "name": "Thk",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 7,
+          "name": "Hhh",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.559375,
+      "best_name": "Hwk",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Hwk",
+          "fitness": 0.7,
+          "wins": 14,
+          "draws": 0,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Hzku",
+          "fitness": 0.625,
+          "wins": 12,
+          "draws": 1,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Hhkuz",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 3,
+          "name": "Hwp",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Hwx",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Chku",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 6,
+          "name": "Ghku",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 7,
+          "name": "Hhk",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        }
+      ]
+    }
+  ]
+}

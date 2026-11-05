@@ -1,0 +1,460 @@
+{
+  "config": {
+    "seed": 2,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "crossover": false,
+    "Inheritance_Probability": null,
+    "mutation_std": 0.1,
+    "annealing": true,
+    "starting_std": 0.1,
+    "ending_std": 0.02,
+    "games_per_candidate": 20,
+    "selection_mode": "tournament",
+    "tournament_size": 3,
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "mutation_std": 0.1,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.5,
+      "best_name": "Ssseti",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ssseti",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Vip",
+          "fitness": 0.575,
+          "wins": 9,
+          "draws": 5,
+          "losses": 6
+        },
+        {
+          "rank": 2,
+          "name": "Iru",
+          "fitness": 0.55,
+          "wins": 11,
+          "draws": 0,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Xovu",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Uueg",
+          "fitness": 0.525,
+          "wins": 7,
+          "draws": 7,
+          "losses": 6
+        },
+        {
+          "rank": 5,
+          "name": "Uci",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Vves",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Ddme",
+          "fitness": 0.275,
+          "wins": 4,
+          "draws": 3,
+          "losses": 13
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "mutation_std": 0.08,
+      "best_fitness": 0.65,
+      "mean_fitness": 0.5375,
+      "best_name": "Psseti",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Psseti",
+          "fitness": 0.65,
+          "wins": 12,
+          "draws": 2,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Ssketi",
+          "fitness": 0.6,
+          "wins": 12,
+          "draws": 0,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Snseti",
+          "fitness": 0.575,
+          "wins": 11,
+          "draws": 1,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Ssreti",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Sssuti",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Sssetir",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Sssete",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Ssseti",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "mutation_std": 0.06,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.49375,
+      "best_name": "Sskete",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Sskete",
+          "fitness": 0.625,
+          "wins": 12,
+          "draws": 1,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Sssusi",
+          "fitness": 0.575,
+          "wins": 11,
+          "draws": 1,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Ssketit",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Sssutih",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Sssuto",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Sssuwi",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Sssuvi",
+          "fitness": 0.45,
+          "wins": 6,
+          "draws": 6,
+          "losses": 8
+        },
+        {
+          "rank": 7,
+          "name": "Psseti",
+          "fitness": 0.325,
+          "wins": 6,
+          "draws": 1,
+          "losses": 13
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "mutation_std": 0.039999999999999994,
+      "best_fitness": 0.65,
+      "mean_fitness": 0.453125,
+      "best_name": "Sjketit",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Sjketit",
+          "fitness": 0.65,
+          "wins": 13,
+          "draws": 0,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Sskatit",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Sssuco",
+          "fitness": 0.55,
+          "wins": 11,
+          "draws": 0,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Sssut",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Ssfetit",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        },
+        {
+          "rank": 5,
+          "name": "Sskete",
+          "fitness": 0.35,
+          "wins": 6,
+          "draws": 2,
+          "losses": 12
+        },
+        {
+          "rank": 6,
+          "name": "Sssato",
+          "fitness": 0.35,
+          "wins": 5,
+          "draws": 4,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Ssketij",
+          "fitness": 0.3,
+          "wins": 4,
+          "draws": 4,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "mutation_std": 0.019999999999999993,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.43125,
+      "best_name": "Sjketit",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Sjketit",
+          "fitness": 0.6,
+          "wins": 10,
+          "draws": 4,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Scketit",
+          "fitness": 0.6,
+          "wins": 9,
+          "draws": 6,
+          "losses": 5
+        },
+        {
+          "rank": 2,
+          "name": "Sqketit",
+          "fitness": 0.5,
+          "wins": 10,
+          "draws": 0,
+          "losses": 10
+        },
+        {
+          "rank": 3,
+          "name": "Srketit",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Sjketita",
+          "fitness": 0.375,
+          "wins": 6,
+          "draws": 3,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Sjketiz",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        },
+        {
+          "rank": 6,
+          "name": "Sjketif",
+          "fitness": 0.3,
+          "wins": 6,
+          "draws": 0,
+          "losses": 14
+        },
+        {
+          "rank": 7,
+          "name": "Sjketih",
+          "fitness": 0.25,
+          "wins": 4,
+          "draws": 2,
+          "losses": 14
+        }
+      ]
+    },
+    {
+      "generation": 5,
+      "mutation_std": null,
+      "best_fitness": 0.55,
+      "mean_fitness": 0.48750000000000004,
+      "best_name": "Sjketit",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Sjketit",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Smketiz",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Shketiz",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Sjketizi",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Srketin",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Sjketoz",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Sxketit",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Sjkitiz",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        }
+      ]
+    }
+  ]
+}

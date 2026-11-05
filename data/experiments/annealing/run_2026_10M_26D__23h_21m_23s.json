@@ -1,0 +1,460 @@
+{
+  "config": {
+    "seed": 1,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "crossover": true,
+    "Inheritance_Probability": 0.5,
+    "mutation_std": 0.1,
+    "annealing": true,
+    "starting_std": 0.1,
+    "ending_std": 0.02,
+    "games_per_candidate": 20,
+    "selection_mode": "truncation",
+    "tournament_size": null,
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "mutation_std": 0.1,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.4625,
+      "best_name": "Ral",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ral",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Jjj",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Nurex",
+          "fitness": 0.55,
+          "wins": 11,
+          "draws": 0,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Xiiio",
+          "fitness": 0.525,
+          "wins": 8,
+          "draws": 5,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Uco",
+          "fitness": 0.45,
+          "wins": 9,
+          "draws": 0,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Udot",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Sawfi",
+          "fitness": 0.35,
+          "wins": 5,
+          "draws": 4,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Ruswe",
+          "fitness": 0.25,
+          "wins": 3,
+          "draws": 4,
+          "losses": 13
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "mutation_std": 0.08,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.503125,
+      "best_name": "Rajvj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Rajvj",
+          "fitness": 0.625,
+          "wins": 12,
+          "draws": 1,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Rajj",
+          "fitness": 0.575,
+          "wins": 11,
+          "draws": 1,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Rajblj",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Jal",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Jjjjfj",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Ral",
+          "fitness": 0.4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 12
+        },
+        {
+          "rank": 6,
+          "name": "Rajjjl",
+          "fitness": 0.4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 12
+        },
+        {
+          "rank": 7,
+          "name": "Jjjjj",
+          "fitness": 0.35,
+          "wins": 5,
+          "draws": 4,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "mutation_std": 0.06,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.5125,
+      "best_name": "Rajajvz",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Rajajvz",
+          "fitness": 0.7,
+          "wins": 13,
+          "draws": 2,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Rajjvd",
+          "fitness": 0.625,
+          "wins": 12,
+          "draws": 1,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Rraajvjwj",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Rraijvjvjj",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Rajvj",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Rajrajjj",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Rijj",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Rraxajvjvj",
+          "fitness": 0.35,
+          "wins": 6,
+          "draws": 2,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "mutation_std": 0.039999999999999994,
+      "best_fitness": 0.55,
+      "mean_fitness": 0.42500000000000004,
+      "best_name": "Mjajvz",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Mjajvz",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Rraajaxjajvvzz",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Rajjvw",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        },
+        {
+          "rank": 3,
+          "name": "Rojajvz",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 4,
+          "name": "Rasad",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Xajjjvz",
+          "fitness": 0.4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 12
+        },
+        {
+          "rank": 6,
+          "name": "Rajajvz",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        },
+        {
+          "rank": 7,
+          "name": "Rajejvz",
+          "fitness": 0.325,
+          "wins": 5,
+          "draws": 3,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "mutation_std": 0.019999999999999993,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.45625,
+      "best_name": "Mjajojvvzz",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Mjajojvvzz",
+          "fitness": 0.625,
+          "wins": 10,
+          "draws": 5,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Mjajvg",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Mjajvz",
+          "fitness": 0.525,
+          "wins": 7,
+          "draws": 7,
+          "losses": 6
+        },
+        {
+          "rank": 3,
+          "name": "Mjjajvz",
+          "fitness": 0.45,
+          "wins": 9,
+          "draws": 0,
+          "losses": 11
+        },
+        {
+          "rank": 4,
+          "name": "Rrrraaajaajaxxjajajvjvvvzzzz",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 5,
+          "name": "Rmjarjavazjaxjajvpzz",
+          "fitness": 0.375,
+          "wins": 6,
+          "draws": 3,
+          "losses": 11
+        },
+        {
+          "rank": 6,
+          "name": "Rraajaxjijvvzz",
+          "fitness": 0.375,
+          "wins": 7,
+          "draws": 1,
+          "losses": 12
+        },
+        {
+          "rank": 7,
+          "name": "Rraajaxjajjvy",
+          "fitness": 0.325,
+          "wins": 4,
+          "draws": 5,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 5,
+      "mutation_std": null,
+      "best_fitness": 0.625,
+      "mean_fitness": 0.5,
+      "best_name": "Mjajvmjajgojvvfz",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Mjajvmjajgojvvfz",
+          "fitness": 0.625,
+          "wins": 10,
+          "draws": 5,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Mjajojvg",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Mmdajjoajojvjvvzvzzz",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Mjajojvpzjojvvzz",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Mmjjaajjojvojvzvzvzw",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Mjujvg",
+          "fitness": 0.475,
+          "wins": 7,
+          "draws": 5,
+          "losses": 8
+        },
+        {
+          "rank": 6,
+          "name": "Mjajajojvvzz",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Mjajojvvzz",
+          "fitness": 0.375,
+          "wins": 6,
+          "draws": 3,
+          "losses": 11
+        }
+      ]
+    }
+  ]
+}

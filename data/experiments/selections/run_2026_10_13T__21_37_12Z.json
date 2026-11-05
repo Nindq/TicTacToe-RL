@@ -1,0 +1,376 @@
+{
+  "config": {
+    "seed": 0,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "mutation_std": 0.1,
+    "games_per_candidate": 20,
+    "selection_mode": "tournament",
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "best_fitness": 0.725,
+      "mean_fitness": 0.515625,
+      "best_name": "Xessu",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Xessu",
+          "fitness": 0.725,
+          "wins": 13,
+          "draws": 3,
+          "losses": 4
+        },
+        {
+          "rank": 1,
+          "name": "Uuu",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 2,
+          "name": "Iiin",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Mij",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Gfiw",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Rrt",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Yina",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Wuwdo",
+          "fitness": 0.4,
+          "wins": 6,
+          "draws": 4,
+          "losses": 10
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "best_fitness": 0.575,
+      "mean_fitness": 0.475,
+      "best_name": "Iiinu",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Iiinu",
+          "fitness": 0.575,
+          "wins": 11,
+          "draws": 1,
+          "losses": 8
+        },
+        {
+          "rank": 1,
+          "name": "Mim",
+          "fitness": 0.55,
+          "wins": 8,
+          "draws": 6,
+          "losses": 6
+        },
+        {
+          "rank": 2,
+          "name": "Mid",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Xessu",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Iiinu",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Iiif",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Muj",
+          "fitness": 0.375,
+          "wins": 6,
+          "draws": 3,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Moj",
+          "fitness": 0.275,
+          "wins": 4,
+          "draws": 3,
+          "losses": 13
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.521875,
+      "best_name": "Iiibu",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Iiibu",
+          "fitness": 0.7,
+          "wins": 14,
+          "draws": 0,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Ieinu",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Iionu",
+          "fitness": 0.55,
+          "wins": 9,
+          "draws": 4,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Med",
+          "fitness": 0.55,
+          "wins": 10,
+          "draws": 2,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Iiinu",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Oiinu",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Iiin",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Xid",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "best_fitness": 0.675,
+      "mean_fitness": 0.509375,
+      "best_name": "Ged",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Ged",
+          "fitness": 0.675,
+          "wins": 13,
+          "draws": 1,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Iiibu",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Oiinu",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Mid",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 4,
+          "name": "Mad",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Iiin",
+          "fitness": 0.45,
+          "wins": 9,
+          "draws": 0,
+          "losses": 11
+        },
+        {
+          "rank": 6,
+          "name": "Uiinu",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Mud",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.55625,
+      "best_name": "Gad",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Gad",
+          "fitness": 0.7,
+          "wins": 13,
+          "draws": 2,
+          "losses": 5
+        },
+        {
+          "rank": 1,
+          "name": "Gid",
+          "fitness": 0.7,
+          "wins": 12,
+          "draws": 4,
+          "losses": 4
+        },
+        {
+          "rank": 2,
+          "name": "Gud",
+          "fitness": 0.675,
+          "wins": 13,
+          "draws": 1,
+          "losses": 6
+        },
+        {
+          "rank": 3,
+          "name": "Gad",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Gel",
+          "fitness": 0.575,
+          "wins": 9,
+          "draws": 5,
+          "losses": 6
+        },
+        {
+          "rank": 5,
+          "name": "Gad",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 6,
+          "name": "Ged",
+          "fitness": 0.4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 12
+        },
+        {
+          "rank": 7,
+          "name": "Led",
+          "fitness": 0.3,
+          "wins": 5,
+          "draws": 2,
+          "losses": 13
+        }
+      ]
+    }
+  ]
+}

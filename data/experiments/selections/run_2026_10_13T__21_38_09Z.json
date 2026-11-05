@@ -1,0 +1,376 @@
+{
+  "config": {
+    "seed": 3,
+    "population_size": 8,
+    "parent_count": 2,
+    "elite_count": 1,
+    "mutation_std": 0.1,
+    "games_per_candidate": 20,
+    "selection_mode": "truncation",
+    "fixed_opponent_protocol": "static untrained TicTacToeAI, model1 vs static",
+    "device": "cuda",
+    "pytorch_version": "2.14.1+cu132"
+  },
+  "generations": [
+    {
+      "generation": 0,
+      "best_fitness": 0.65,
+      "mean_fitness": 0.5375,
+      "best_name": "Xib",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Xib",
+          "fitness": 0.65,
+          "wins": 13,
+          "draws": 0,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Giri",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 2,
+          "name": "Vux",
+          "fitness": 0.625,
+          "wins": 11,
+          "draws": 3,
+          "losses": 6
+        },
+        {
+          "rank": 3,
+          "name": "Xitdo",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Zzqdd",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Xef",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Utwe",
+          "fitness": 0.425,
+          "wins": 6,
+          "draws": 5,
+          "losses": 9
+        },
+        {
+          "rank": 7,
+          "name": "Miqo",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        }
+      ]
+    },
+    {
+      "generation": 1,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.490625,
+      "best_name": "Xid",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Xid",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Xab",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 2,
+          "name": "Xib",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 3,
+          "name": "Gire",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Geri",
+          "fitness": 0.5,
+          "wins": 9,
+          "draws": 2,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Xub",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Gari",
+          "fitness": 0.425,
+          "wins": 6,
+          "draws": 5,
+          "losses": 9
+        },
+        {
+          "rank": 7,
+          "name": "Xob",
+          "fitness": 0.4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.45,
+      "best_name": "Xob",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Xob",
+          "fitness": 0.6,
+          "wins": 10,
+          "draws": 4,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Xub",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 2,
+          "name": "Xid",
+          "fitness": 0.5,
+          "wins": 7,
+          "draws": 6,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Xub",
+          "fitness": 0.45,
+          "wins": 8,
+          "draws": 2,
+          "losses": 10
+        },
+        {
+          "rank": 4,
+          "name": "Xed",
+          "fitness": 0.425,
+          "wins": 8,
+          "draws": 1,
+          "losses": 11
+        },
+        {
+          "rank": 5,
+          "name": "Xeb",
+          "fitness": 0.4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 12
+        },
+        {
+          "rank": 6,
+          "name": "Xob",
+          "fitness": 0.4,
+          "wins": 7,
+          "draws": 2,
+          "losses": 11
+        },
+        {
+          "rank": 7,
+          "name": "Xob",
+          "fitness": 0.25,
+          "wins": 3,
+          "draws": 4,
+          "losses": 13
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "best_fitness": 0.6,
+      "mean_fitness": 0.478125,
+      "best_name": "Xoj",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Xoj",
+          "fitness": 0.6,
+          "wins": 11,
+          "draws": 2,
+          "losses": 7
+        },
+        {
+          "rank": 1,
+          "name": "Xob",
+          "fitness": 0.525,
+          "wins": 9,
+          "draws": 3,
+          "losses": 8
+        },
+        {
+          "rank": 2,
+          "name": "Xuf",
+          "fitness": 0.525,
+          "wins": 10,
+          "draws": 1,
+          "losses": 9
+        },
+        {
+          "rank": 3,
+          "name": "Xab",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 4,
+          "name": "Xobo",
+          "fitness": 0.475,
+          "wins": 8,
+          "draws": 3,
+          "losses": 9
+        },
+        {
+          "rank": 5,
+          "name": "Xoz",
+          "fitness": 0.45,
+          "wins": 7,
+          "draws": 4,
+          "losses": 9
+        },
+        {
+          "rank": 6,
+          "name": "Xeb",
+          "fitness": 0.425,
+          "wins": 7,
+          "draws": 3,
+          "losses": 10
+        },
+        {
+          "rank": 7,
+          "name": "Xeb",
+          "fitness": 0.325,
+          "wins": 5,
+          "draws": 3,
+          "losses": 12
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "best_fitness": 0.7,
+      "mean_fitness": 0.5375,
+      "best_name": "Xeb",
+      "candidates": [
+        {
+          "rank": 0,
+          "name": "Xeb",
+          "fitness": 0.7,
+          "wins": 14,
+          "draws": 0,
+          "losses": 6
+        },
+        {
+          "rank": 1,
+          "name": "Xod",
+          "fitness": 0.675,
+          "wins": 12,
+          "draws": 3,
+          "losses": 5
+        },
+        {
+          "rank": 2,
+          "name": "Xoy",
+          "fitness": 0.65,
+          "wins": 13,
+          "draws": 0,
+          "losses": 7
+        },
+        {
+          "rank": 3,
+          "name": "Xij",
+          "fitness": 0.575,
+          "wins": 10,
+          "draws": 3,
+          "losses": 7
+        },
+        {
+          "rank": 4,
+          "name": "Xoj",
+          "fitness": 0.5,
+          "wins": 8,
+          "draws": 4,
+          "losses": 8
+        },
+        {
+          "rank": 5,
+          "name": "Xom",
+          "fitness": 0.475,
+          "wins": 9,
+          "draws": 1,
+          "losses": 10
+        },
+        {
+          "rank": 6,
+          "name": "Xej",
+          "fitness": 0.4,
+          "wins": 8,
+          "draws": 0,
+          "losses": 12
+        },
+        {
+          "rank": 7,
+          "name": "Xor",
+          "fitness": 0.325,
+          "wins": 6,
+          "draws": 1,
+          "losses": 13
+        }
+      ]
+    }
+  ]
+}

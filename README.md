@@ -135,7 +135,7 @@ I explored three changes during development:
 | Fixed mutation vs annealing | Mutation-noise schedule |
 | Mutation only vs crossover followed by mutation | Crossover enabled or disabled |
 
-These were small exploratory comparisons. Results varied with the seed and with whether I compared generation-best or population-mean fitness. I am still curating the historical run records before adding a detailed ablation-results table. The committed data currently contains the three final training histories and the validation/final-test evidence.
+These were small exploratory comparisons. Results varied with the seed and with whether I compared generation-best or population-mean fitness. The [data and evidence index](data/README.md) links the 27 historical run records used in 15 matched comparisons, with final-generation best and mean fitness tables, settings, and interpretations. It also indexes the final training histories, checkpoints, graph, and validation/final-test evidence.
 
 A useful debugging lesson came from the evaluator. When the champion changed argument position, I accidentally counted the other model's wins. That made the results misleading. Fixing the attribution and checking that wins + draws + losses matched the game count changed the interpretation of the experiment. I added regression coverage for that case.
 

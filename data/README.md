@@ -1,22 +1,22 @@
 # Data and Evidence Index
 
-This directory contains the experimental runs, trained model checkpoints, evaluation reports, and generation histories for the Tic-Tac-Toe neuroevolution project. Its purpose is to document where all published numbers originate and provide the exact data files needed to verify or trace every result.
+This directory contains the experimental runs, trained model checkpoints, evaluation reports, and generation histories for the Tic-Tac-Toe neuroevolution project. Its purpose is to link the results summarized here to their saved source records.
 
 ## Evidence Kept and Verification
 
-This repository retains the primary records needed to independently reproduce and audit every reported training curve, hyperparameter comparison, and evaluation score:
+This repository retains records for checking the reported training curves, listed hyperparameter comparisons, and evaluation scores. Older logs omit some configuration fields, so these records do not guarantee exact reproduction of every historical training run:
 
 - **Full training logs:** Complete 30-generation records for the final training batch (seeds 10, 11, and 12), logging the fitness of every candidate in every generation.
 - **Model weights and metadata:** Saved PyTorch weights (`.pth`) and sidecar metadata (`.json`) for top candidates, indexed by a leaderboard.
 - **Evaluation reports:** Head-to-head performance benchmarks against held-out opponent pools and a seeded untrained baseline across hundreds of balanced games.
-- **Ablation experiment records:** 27 unique historical run logs covering controlled comparisons across matched random seeds for selection methods, mutation schedules, and crossover.
+- **Ablation experiment records:** 27 indexed historical run logs supporting matched-seed comparisons of selection methods, mutation schedules, and crossover. The folders also contain duplicated copies and additional archived runs; the tables below identify the comparison set.
 - **Visual figures:** The generated training curve plot for seed 12.
 
 With these records, anyone can verify:
 1. The generation-by-generation fitness curves without spending hours re-running training simulations.
 2. Why the generation-28 model from seed 12 was selected as champion over generation 16 (validation score of 0.6650 versus 0.6008 on held-out opponents).
 3. The exact final-test statistics (370 wins, 70 draws, 160 losses across 600 games against unseen opponents, yielding a 0.6750 fitness score).
-4. The exact configuration parameters, seeds, and outcomes of every historical experiment, separating demonstrated empirical observations from interpretations.
+4. The recorded settings, seeds, and outcomes of the indexed historical experiments, separating measured observations from interpretations. Some settings described below come from the historical code review rather than explicit fields in every JSON.
 
 ## Folder Structure
 
@@ -67,7 +67,7 @@ Parent selection mechanism: **Tournament selection** (tournament size $k=3$, sam
 - Crossover: Disabled
 - Evaluated generations: 5 (generations 0 through 4)
 - Games per candidate: 20 games per generation against the static, untrained opponent
-- Initial population: For each seed, both conditions start with identical candidate weights and initial generation-0 scores.
+- Initialization: Conditions use the same seed within each pair; their recorded generation-0 candidate outcomes match.
 
 ### Seeds and Game Budget
 - Seeds: 6 paired runs (seeds 0 through 5)
@@ -95,7 +95,7 @@ Parent selection mechanism: **Tournament selection** (tournament size $k=3$, sam
 **Demonstrated Findings:**
 - Tournament selection produced a higher final-generation best fitness in 4 of the 6 seeds (seeds 0, 2, 3, and 5), tied in seed 1 (both at 0.7000), and Truncation selection produced a higher best fitness in seed 4 (0.5750 vs. 0.5250).
 - For final population mean fitness, results split evenly: Tournament was higher in 3 seeds (seeds 0, 2, and 5), while Truncation was higher in 3 seeds (seeds 1, 3, and 4).
-- Performance changed substantially across random seeds. For instance, seed 4 resulted in lower performance across both methods (neither exceeded 0.5750 best fitness), whereas seeds 0, 1, 3, and 5 reached 0.7000 or higher.
+- Final-generation performance changed substantially across random seeds. In seed 4, neither method exceeded 0.5750 final-generation best fitness, whereas seeds 0, 1, 3, and 5 reached 0.7000 or higher. Earlier generations in seed 4 scored higher: 0.7250 for tournament and 0.7500 for truncation, so the final values are not the run-wide peaks.
 - Best fitness and population mean fitness do not tell the same story. In seed 1, best fitness was identical, but truncation achieved a higher population mean (0.559375 vs. 0.521875). In seed 3, tournament produced the superior individual candidate (0.7250 vs. 0.7000), but truncation produced a higher population average (0.53750 vs. 0.52500).
 
 **Possible Explanations (Hypotheses):**
@@ -117,7 +117,7 @@ Mutation noise schedule: **Fixed mutation strength** ($\sigma = 0.10$) versus **
 - Games per candidate: 20 games per generation against the static, untrained opponent
 - Initial population: Initial candidates and generation-0 scores match within each paired seed.
 
-*File selection note:* The `experiments/annealing/` folder contains 11 JSON files, which include historical crossover-enabled runs. As identified in `EVIDENCE_GUIDE.md`, only the six matched records where crossover was disabled are used here for the controlled schedule comparison.
+*File selection note:* The `experiments/annealing/` folder contains 11 JSON files, including historical crossover-enabled runs. Only the six matched records linked in the table below, where crossover was disabled, are used for the schedule comparison.
 
 ### Seeds and Game Budget
 - Seeds: 3 paired runs (seeds 0, 1, and 2)
